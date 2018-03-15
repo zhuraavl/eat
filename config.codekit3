@@ -7,10 +7,11 @@
 		"uuidString": "F93AEBB0-1CC4-4E81-BCBC-04975F3F35C7"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26330",
 "files": {
 	"\/control-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/control-min-min.js",
@@ -20,6 +21,7 @@
 		},
 	"\/control.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/control-min.js",
@@ -28,12 +30,14 @@
 		"tS": 0
 		},
 	"\/css\/.sass-cache\/9483923d15401b998fa087646e33680bb97d6f10\/app.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/9483923d15401b998fa087646e33680bb97d6f10\/app.sassc",
 		"oF": 0
 		},
 	"\/css\/.sass-cache\/9d2ed8f6b91afeeebdaeb632cc29788499dfb170\/app.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/.sass-cache\/9d2ed8f6b91afeeebdaeb632cc29788499dfb170\/app.sassc",
@@ -73,10 +77,21 @@
 		"oS": 0
 		},
 	"\/css\/bootstrap.min.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
+		},
+	"\/css\/datepicker.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/datepicker-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/flaticon.css": {
 		"aP": 0,
@@ -109,18 +124,21 @@
 		"oS": 0
 		},
 	"\/edit\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/edit\/.htaccess",
 		"oF": 0
 		},
 	"\/edit\/conf.ini": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/edit\/conf.ini",
 		"oF": 0
 		},
 	"\/edit\/lang.ini": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/edit\/lang.ini",
@@ -138,6 +156,7 @@
 		},
 	"\/edit\/textolite.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/edit\/textolite-min.js",
@@ -146,6 +165,7 @@
 		"tS": 0
 		},
 	"\/edit\/textolite.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/edit\/textolite.php",
@@ -165,12 +185,14 @@
 		"uL": 1
 		},
 	"\/fonts\/Flaticon.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Flaticon.eot",
 		"oF": 0
 		},
 	"\/fonts\/flaticon.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/flaticon.html",
@@ -187,18 +209,21 @@
 		"prP": 0
 		},
 	"\/fonts\/Flaticon.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Flaticon.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Flaticon.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Flaticon.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.eot",
@@ -215,24 +240,28 @@
 		"prP": 0
 		},
 	"\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome.otf",
@@ -400,21 +429,19 @@
 		},
 	"\/img\/footer3.gif": {
 		"ft": 4194304,
-		"iS": 451798,
+		"iS": 1021879,
 		"oA": 0,
 		"oAP": "\/img\/footer3.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/hero.jpg": {
-		"ft": 16384,
-		"iS": 1204303,
+	"\/img\/giphy.gif": {
+		"ft": 4194304,
+		"iS": 1460966,
 		"oA": 0,
-		"oAP": "\/img\/hero.jpg",
+		"oAP": "\/img\/giphy.gif",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 0
 		},
 	"\/img\/icon\/1.png": {
 		"ft": 32768,
@@ -603,8 +630,8 @@
 		"oA": 0,
 		"oAP": "\/img\/logo_black.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -652,13 +679,267 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/style\/1.jpg": {
+		"ft": 16384,
+		"iS": 127269,
+		"oA": 0,
+		"oAP": "\/img\/style\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/10.jpg": {
+		"ft": 16384,
+		"iS": 2137129,
+		"oA": 0,
+		"oAP": "\/img\/style\/10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/11.jpg": {
+		"ft": 16384,
+		"iS": 1853095,
+		"oA": 0,
+		"oAP": "\/img\/style\/11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/12.jpg": {
+		"ft": 16384,
+		"iS": 2035719,
+		"oA": 0,
+		"oAP": "\/img\/style\/12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/13.jpg": {
+		"ft": 16384,
+		"iS": 2456596,
+		"oA": 0,
+		"oAP": "\/img\/style\/13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/14.jpg": {
+		"ft": 16384,
+		"iS": 2422611,
+		"oA": 0,
+		"oAP": "\/img\/style\/14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/14cc.jpg": {
+		"ft": 16384,
+		"iS": 113371,
+		"oA": 0,
+		"oAP": "\/img\/style\/14cc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/style\/15.jpg": {
+		"ft": 16384,
+		"iS": 2621546,
+		"oA": 0,
+		"oAP": "\/img\/style\/15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/15cc.jpg": {
+		"ft": 16384,
+		"iS": 99308,
+		"oA": 0,
+		"oAP": "\/img\/style\/15cc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/style\/16.jpg": {
+		"ft": 16384,
+		"iS": 2093321,
+		"oA": 0,
+		"oAP": "\/img\/style\/16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/17.jpg": {
+		"ft": 16384,
+		"iS": 2458864,
+		"oA": 0,
+		"oAP": "\/img\/style\/17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/2.jpg": {
+		"ft": 16384,
+		"iS": 190502,
+		"oA": 0,
+		"oAP": "\/img\/style\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/3.jpg": {
+		"ft": 16384,
+		"iS": 2471328,
+		"oA": 0,
+		"oAP": "\/img\/style\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/4.jpg": {
+		"ft": 16384,
+		"iS": 2427404,
+		"oA": 0,
+		"oAP": "\/img\/style\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/4cc.jpg": {
+		"ft": 16384,
+		"iS": 165676,
+		"oA": 0,
+		"oAP": "\/img\/style\/4cc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/style\/5.jpg": {
+		"ft": 16384,
+		"iS": 2952862,
+		"oA": 0,
+		"oAP": "\/img\/style\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/6.jpg": {
+		"ft": 16384,
+		"iS": 3518948,
+		"oA": 0,
+		"oAP": "\/img\/style\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/7.jpg": {
+		"ft": 16384,
+		"iS": 2405462,
+		"oA": 0,
+		"oAP": "\/img\/style\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/8.jpg": {
+		"ft": 16384,
+		"iS": 2995965,
+		"oA": 0,
+		"oAP": "\/img\/style\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/9.jpg": {
+		"ft": 16384,
+		"iS": 2345882,
+		"oA": 0,
+		"oAP": "\/img\/style\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/style\/calendar.png": {
+		"ft": 32768,
+		"iS": 9361,
+		"oA": 0,
+		"oAP": "\/img\/style\/calendar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/style\/call.png": {
+		"ft": 32768,
+		"iS": 12112,
+		"oA": 0,
+		"oAP": "\/img\/style\/call.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/style\/footer3.gif": {
+		"ft": 4194304,
+		"iS": 1021879,
+		"oA": 0,
+		"oAP": "\/img\/style\/footer3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/style\/smart.png": {
+		"ft": 32768,
+		"iS": 5366,
+		"oA": 0,
+		"oAP": "\/img\/style\/smart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/style\/trial.png": {
+		"ft": 32768,
+		"iS": 7595,
+		"oA": 0,
+		"oAP": "\/img\/style\/trial.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/index.jade": {
+		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -668,6 +949,7 @@
 		},
 	"\/js\/app-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/app-min-min.js",
@@ -677,6 +959,7 @@
 		},
 	"\/js\/app.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/app-min.js",
@@ -686,6 +969,7 @@
 		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap.min-min.js",
@@ -695,6 +979,7 @@
 		},
 	"\/js\/circle-slider.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/circle-slider.min-min.js",
@@ -704,6 +989,7 @@
 		},
 	"\/js\/classie.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/classie-min.js",
@@ -711,8 +997,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/datepicker.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/datepicker-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/mask.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/mask-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/app-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/app-min-min.js",
@@ -722,6 +1029,7 @@
 		},
 	"\/js\/modernizr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/modernizr-min.js",
@@ -731,6 +1039,7 @@
 		},
 	"\/js\/scripts-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scripts-min-min.js",
@@ -740,6 +1049,7 @@
 		},
 	"\/js\/selectFx.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/selectFx-min.js",
@@ -747,70 +1057,71 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/typed.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/typed.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/menu\/day1.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day1.html",
 		"oF": 0
 		},
 	"\/menu\/day2.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day2.html",
 		"oF": 0
 		},
 	"\/menu\/day3.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day3.html",
 		"oF": 0
 		},
 	"\/menu\/day4.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day4.html",
 		"oF": 0
 		},
 	"\/menu\/day5.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day5.html",
 		"oF": 0
 		},
 	"\/menu\/day6.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day6.html",
 		"oF": 0
 		},
 	"\/menu\/day7.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/day7.html",
 		"oF": 0
 		},
 	"\/menu\/send.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu\/send.php",
 		"oF": 0
 		},
 	"\/menu6.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/menu6.html",
 		"oF": 0
 		},
 	"\/menu6.jade": {
+		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
@@ -819,42 +1130,49 @@
 		"oS": 0
 		},
 	"\/phpmailer\/class.phpmailer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/class.phpmailer.php",
 		"oF": 0
 		},
 	"\/phpmailer\/class.phpmaileroauth.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/class.phpmaileroauth.php",
 		"oF": 0
 		},
 	"\/phpmailer\/class.phpmaileroauthgoogle.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/class.phpmaileroauthgoogle.php",
 		"oF": 0
 		},
 	"\/phpmailer\/class.pop3.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/class.pop3.php",
 		"oF": 0
 		},
 	"\/phpmailer\/class.smtp.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/class.smtp.php",
 		"oF": 0
 		},
 	"\/phpmailer\/PHPMailerAutoload.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/phpmailer\/PHPMailerAutoload.php",
 		"oF": 0
 		},
 	"\/send.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/send.php",
@@ -877,6 +1195,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1273,6 +1592,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1280,6 +1603,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1377,6 +1704,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1393,9 +1724,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1420,6 +1759,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -1453,9 +1796,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1485,6 +1828,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1494,14 +1841,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1524,6 +1863,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2069,6 +2412,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2137,6 +2484,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2176,6 +2527,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2589,7 +2944,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2622,6 +2978,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2663,7 +3020,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2695,13 +3053,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2710,7 +3068,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2730,7 +3089,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2758,7 +3118,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2809,6 +3170,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

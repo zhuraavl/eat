@@ -31,762 +31,321 @@ html(lang='ru')
       ga('create', 'UA-82328766-1', 'auto');
       ga('send', 'pageview');
     link(href='css/app.css', rel='stylesheet', type='text/css')
+    link(href='https://use.fontawesome.com/releases/v5.0.8/css/all.css', rel='stylesheet')
+
+
   body.load
-    section.hero
-      //
-        .social-links
-        span Социальные сети:
-      .hero-box
-        .hero-bg(style='background-image: url(img/hero.jpg)')
-        .content
-          .row
-            .col-md-4.hidden-sm
-              ul
-                li
-                  h3.serif С нами вам не нужно:
-                li
-                  i.flaticon-icon-35800
-                  span Каждый день мыть посуду
-                li
-                  i.flaticon-icon-45351
-                  span Искать новые рецепты
-                li
-                  i.flaticon-icon-100283
-                  span
-                    | Каждый день считать
-                    br
-                    | калории
-                li
-                  i.flaticon-icon-80814
-                  span
-                    | Постоянно закупать продукты 
-                    br
-                    | в магазине
-                li
-                  i.flaticon-icon-10561
-                  span
-                    | Тратить время и 
-                    br
-                    | силы на приготовление
-                li
-                  i.flaticon-icon-14570
-                  span
-                    | Беспокоится о качестве 
-                    br
-                    | продуктов
-            .col-md-4.text-center
-              a.logo(href='/')
-                img(src='img/logo_black.png', alt='')
-              p
-                | Eater — это проект для людей, которые хотят правильно, регулярно и разнообразно питаться в течение всего дня, не тратя при этом ни сил, ни времени.
-              button.button.scroll-to-menu смотреть меню
-            .col-md-4
-              .small-info
-                span
-                  | * Приведенные выше фото отличаются от того, что вы увидите сделав заказ. Фотографии продукта смотрите ниже
-          .row.bottom-row
-            .col-md-2
-              a.tel(href='tel:+380735591155') +38 073 55 911 55
-            .col-md-2
-              a.tel(href='tel:+380685511955') +38 068 55 119 55 
-            .col-md-4
-              p.text-center г. Одесса 
-            .col-md-4.social
-              a(href='#')
-                span Мы в социальных сетях:
+    
+    
+    .box-features
+      .container
+        .row
+          .col-md-12
+            .slider-features-style
+              .item
+                p 
+                  |получи скидку -5% при заказе меню от 5 дней
+              .item
+                p получи скидку -10% при заказе меню от 20 дней
+              .item
+                p закажите доставку 2-х программ на один адрес - получите скидку!
+    section.style-hero
+      .menu-style-box
+        h4 
+          b eater 
+          |— это проект для людей, которые хотят правильно, регулярно и разнообразно питаться в течение всего дня, не тратя при этом ни сил, ни времени.
+        a.btn(href="#update-menu") смотреть меню
+        br
+        a.btn(href="#link-to-form") наши цены
+        br
+        a.btn(href="#link-to-form") закзать
+        br
+        button.sms-call
+          span.open-sms позвонить мне
+          img(src="img/style/call.png", alt="")
+      //.city-box
+        p 
+          |Готовим и доставляем 
+          b завтрак, обед и ужин 
+          |каждый день
+        br
+        p 
+          | Cделайте заказ 
+          b до 18:00 
+          | и получите меню 
+          b на следующий день
+      .logo-box
+        a.logo(href='/')
+          img(src='img/logo_black.png', alt='')
+      .phone-box
+        p.social-box
+          a(href='https://www.instagram.com/eater.od')
+            i.fab.fa-instagram
+          a(href='https://www.facebook.com/eater.od/?fref=ts')
+            i.fab.fa-facebook-f
+          a(href='https://www.instagram.com/eater.od')
+            i.fab.fa-viber
+        br
+        p одесса
+        br
+        p
+          |068 551 19 55
+          br
+          |073 559 11 55
+        
+        
+        
+      
+
+      .hover-slider
+        .hover-item
+          .bg(style="background-image: url(img/style/11.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/1.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/4.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/15.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/13.jpg")
+        .hover-item
+          .bg(style="background-image: url(img/style/6.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/8.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/3.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/2.jpg)")
+        .hover-item
+          .bg(style="background-image: url(img/style/14cc.jpg)")
+          
               
-              a(href='https://www.facebook.com/eater.od/?fref=ts')
-                i.fa.fa-facebook
-              a(href='https://www.instagram.com/eater.od')
-                i.fa.fa-instagram
-        .slider-hero
-          .item
-            .bg(style='background-image: url(img/start/1.png)')
-          .item
-            .bg(style='background-image: url(img/start/2.png)')
-          .item
-            .bg(style='background-image: url(img/start/3.png)')
-            
+          
+          
+    
+          
+      
     
     input#first(value="6/23/2017")
     
     
     section#update-menu.update-menu
-      .container
-        .row.big-title-menu
-          .col-lg-6.col-lg-offset-3
-            h2.serif.big-title Меню
-            p
-              | Меню рационов разработано диетологом согласно трех основных правил — это правильные продукты, технология приготовления и ритм питания.
-          
-            
-      .calendar-rotator
-        .rotator-mounth.emblem 1 2 3 4 5 6 7 8 9 10 11 12 
-        .rotator-days.emblem 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 
-      include menu6
-      .container
-        .row
-          .col-md-6
-            .single-item.smart
-              .title-item
-                .row
-                  .col-sm-5.text-center
-                    img(src='img/icon/emoji/3.png', alt='', width='40')
-                    h2.serif Smart lunch
-                    h3 180 грн в день
-                  .col-md-7
-                    h4 Программа Smart lunch - для тех, кто хочет питаться здоровой пищей в офисе
-                    p
-                      | Программа включает перекус 1, обед и перекус 2, чтобы у Вас не было соблазна употреблять нездоровую пищу в офисе.
-                  
-          .col-md-6
-            .single-item.trial
-              .title-item
-                .row
-                  .col-sm-5.text-center
-                    img(src='img/icon/emoji/5.png', alt='', width='40')
-                    h2.serif Пробный день
-                    h3 300 грн за раз
-                  .col-sm-7
-                    h4
-                      | В стоимость пробного дня входит 5 приемов пищи, бутылка воды 0,5 л и доставка по г. Одесса.
-                    p
-                      | Калорийность пробного дня - 1200 кКал. Заказать "пробный день" можно только один раз.
-                
-
-
       .container-fluid
         .row
-          .col-md-12.instruction
-            .row
-              .col-md-12.text-center
-                h4.serif Как это работает?
-            .row
-              .col-md-4
-                img(src="img/icon/2.png", alt="")
-                button.scroll-to-form 
-                  |Оформи заказ
-                  br
-                  |на нашем сайте
-              .col-md-4
-                img(src="img/icon/3.png", alt="")
-                p 
-                  |С вами свяжется
-                  br
-                  |наш оператор
-              .col-md-4
-                img(src="img/icon/1.png", alt="")
-                p 
-                  | Жди доставку 
-                  br
-                  |на следующий день 
-                  span *
-                div.hidden-text 
-                  |*Если заказ был принят до 
-                  strong 16:00
-          
-      .container
-        .row.instruction-size
+          .col-md-12.text-center
+            h2.title-style
+              | меню по дням
+            br
           .col-md-12
-            .row
-              .col-md-8.pricing
-                h2.serif Стоимость:
-                br
-                br
+            include menu6
+      
+      
+      
+      
+      
+      
+    section.update-form#link-to-form
+      .container
+        
+        .row
+          .col-md-12.text-center
+            h2.title-style размер и цена
+            br
+        .row
+          .col-md-3.col-sm-6.col-xs-12
+            label.price-check-style
+              input.radio(type='radio', name='calories', value='2400 кКал / Большое / 400грн')
+              span.input-circle
+                p 2600 кКал
+                h2 X
+                h4
+                  |440 
+                  span грн/в день
+          .col-md-3.col-sm-6.col-xs-12
+            label.price-check-style
+              input.radio(type='radio', name='calories', value='2000 кКал / Среднее / 360грн')
+              span.input-circle
+                p 2000 кКал
+                h2 L
+                h4
+                  |400 
+                  span грн/в день
+          .col-md-3.col-sm-6.col-xs-12
+            label.price-check-style
+              input.radio(type='radio', name='calories', value='1800 кКал / Среднее / 360грн' checked="")
+              span.input-circle
+                p 1500 кКал
+                h2 M
+                h4
+                  |380 
+                  span грн/в день
+          .col-md-3.col-sm-6.col-xs-12
+            label.price-check-style
+              input.radio(type='radio', name='calories', value='1200 кКал / Маленькое / 340грн')
+              span.input-circle
+                p 1200 кКал
+                h2 S
+                h4
+                  |370 
+                  span грн/в день
+        .row
+          .col-md-12.text-center
+            h3.subtitle-style дополнительное меню
+            br
+          .col-md-6.col-sm-12.col-xs-12
+            label.price-check-style.trial-day-style
+              input.radio(type='radio', name='calories', value='Trial lunch')
+              span.input-circle
                 .row
-                  .col-md-4.col-xs-4
-                    span.small
-                    p 1200 кКал и 1400 кКал 
-                    h5 340 грн/день
-                    br
-                  .col-md-4.col-xs-4
-                    span.medium
-                    p  1800 кКал и 2000 кКал 
-                    h5 360 грн/день
-                    br
-                  .col-md-4.col-xs-4
-                    span.large
-                    p 2400 кКал и 2600 кКал
-                    h5 400 грн/день
-              .col-md-4
-                .sale-box
-                  h2.serif Акции
-                  .sale-item
-                    p Получи скидку -5% при заказе меню от 5 дней 
-                  .sale-item
-                    p Получи скидку -10% при заказе меню от 10 дней
-                  .sale-item
-                    p Получи скидку -15% при заказе меню от 30 дней
-
-
-      
-      
-      
-    
-    
-    
-    
-    
-    section.all-slider-box
-      .container.big-title-box
-        .big-title.serif Смотреть
-        .row
-          .col-md-6.col-md-offset-3.text-center
-            p
-              | Программа питания — это рассчитанный по дням план Ваших завтраков, обедов, ужинов и даже небольших «перекусов». Набор готовых блюд на весь день доставляется ежедневно, в удобное для Вас время в офис или домой.
-      .container.slider-here
-        .menu-item-slider
-          .item
-            .bg(style='background-image: url(img/insta/1.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/2.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/3.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/4.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/5.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/6.jpg)')
-        .menu-item-slider-nav
-          .item
-            .bg(style='background-image: url(img/insta/1.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/2.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/3.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/4.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/5.jpg)')
-          .item
-            .bg(style='background-image: url(img/insta/6.jpg)')
-      a.instlink(href='https://www.instagram.com/eater.od/') больше фото смотрите в нашем instagram
-      
-      
-      
-      
-      
-      
-      
-    section.update-form
-      .mega-title Заказать
-      .container
-        .row
-          .col-md-4.col-md-offset-4.text-center
-            p.title-mini-text
-              | Оформите заказ по телефону или онлайн на сайте на необходимое количество дней или недель
-        .row
-          .col-md-12
-            input(name='subject', type='hidden', value='Eater: Форма заказа')
-            .row.form-text-inputs
-              .col-md-4
-                input.serif(name='username', type='text', placeholder="Имя и фамилия*")
-              .col-md-4
-                input.serif(name='phone', type='number', placeholder="Номер телефона*")
-              .col-md-4
-                input.serif(name='address', type='text', placeholder="Адрес доставки*")
+                  .col-sm-2.col-xs-3
+                    img(src="img/style/trial.png", alt="")
+                  .col-sm-6.col-xs-9
+                    h3
+                      span 1200 кКал
+                      |Пробный день
+                  .col-sm-4.col-xs-12.text-right
+                    h4.serif
+                      |300 
+                      span грн
+                .row
+                  .col-xs-6
+                    p
+                      b В стоимость пробного дня входит 5 приемов пищи и доставка по Одессе.
+                  .col-xs-6
+                    p
+                      | Калорийность пробного дня - 1200 кКал. Заказать "пробный день" можно только один раз.
               
-                
-        .row.select-time-row
-          .col-md-12.text-center
-            h6 Выбрать время
-            ul.time-range-slider-nav
-              li.active 
-                | 06:30 - 07:00
-                span 1
-              li 
-                | 07:00 - 07:30
-                span 2
-              li 
-                | 07:30 - 08:00
-                span 3
-              li 
-                | 08:00 - 08:30
-                span 4
-              li 
-                | 08:30 - 09:00
-                span 5
-              li 
-                | 09:00 - 09:30
-                span 6
-              li 
-                | 09:30 - 10:00
-                span 7
-              li 
-                | 10:00 - 10:30
-                span 8
-              li 
-                | 10:30 - 11:00
-                span 9
-              li 
-                | 11:00 - 11:30
-                span 10
-              li 
-                | 11:30 - 12:00
-                span 11
-              
+          .col-md-6.col-sm-12.col-xs-12
+            label.price-check-style.smart-lunch-style
+              input.radio(type='radio', name='calories', value='Smart lunch')
+              span.input-circle
+                .row
+                  .col-sm-2.col-xs-3
+                    img(src="img/style/smart.png", alt="")
+                  .col-sm-6.col-xs-9
+                    h3
+                      span 1600 кКал
+                      |Smart lunch
+                  .col-sm-4.col-xs-12.text-right
+                    h4.serif 
+                      |200 
+                      span грн
+                .row
+                  .col-xs-6
+                    p
+                      b Smart Lunch - для тех, кто хочет питаться здоровой пищей в офисе
+                  .col-xs-6
+                    p 
+                      |Программа включает перекус 1, обед и перекус 2, чтобы перестать употреблять нездоровую пищу в офисе.
+
+        
+        
+        
+        .row.time-and-date-style
           .col-md-12
-            input#time-range-slider(type='range', min='0', max='10', step='1', value='0', name="time")
-            ul.line-item
-              li
-              li
-              li
-              li
-              li
-              li
-              li
-              li
-              li
-              li
-
-        .row.toggle-vegan
-          .col-md-12.text-center
-            h6#chois-ration выбрать стоимость
-          .col-md-3
+            br
+            h2.title-style время и день начала доставки
+            br
+          .col-md-6.col-sm-12
+            .form-select-box
+              select
+                option 06:30 - 07:00
+                option 07:00 - 07:30
+                option 07:30 - 08:00
+                option 08:00 - 08:30
+                option 08:30 - 09:00
+                option 09:00 - 09:30
+                option 09:30 - 10:00
+                option 10:00 - 10:30
+                option 11:00 - 11:30
+                option 11:30 - 12:00
+          .col-md-3.col-sm-6.col-xs-12.data-style
             .row
-              .col-md-12.col-xs-6
-                label.button-toggle-wrap
-                  .my-pic
-                    img(src="img/icon/emoji/6.png", alt="")
-                  input#no-meat.toggler(type='checkbox', data-toggle='button-toggle' name="howmenu" value="Выбрали без мяса")
-                  .button-toggle
-                    .handle
-                      .bars
-                  h5.my-text С мясом
-              .col-md-12.col-xs-6
-                p.small-text Каждое из представленных меню может быть доступно без мяса. Вместо него мы используем сыр тофу или другие подходящие продукты
-            
-          .col-md-6.price-days
-            
-            .row
-              .col-md-4.col-xs-4
-                .price-item
+              .col-xs-6
+                .inputs-boxes
+                  input#tomorrow(type='radio', name='date', value='завтра')
                   label
-                    input.radio(type='radio', name='calories', value='1200 кКал / Маленькое / 340грн')
-                    span.input-circle
-                    p 1200 кКал
-
+                    | завтра 
+              .col-xs-6
+                .inputs-boxes
+                  input#ponedelnik(type='radio', name='date', value='в понедельник')
                   label
-                    input.radio(type='radio', name='calories', value='1400 кКал / Маленькое / 340грн')
-                    span.input-circle
-                    p 1400 кКал
-
-                  h4.serif 
-                    |340 
-                    span грн/день
-            
-            
-              .col-md-4.col-xs-4
-                .price-item
-                  label
-                    input.radio(type='radio', name='calories', value='1800 кКал / Среднее / 360грн')
-                    span.input-circle
-                    p 1800 кКал
-                  label
-                    input.radio(type='radio', name='calories', value='2000 кКал / Среднее / 360грн')
-                    span.input-circle
-                    p 2000 кКал
-                  h4.serif 
-                    |360 
-                    span грн/день
-              .col-md-4.col-xs-4
-                .price-item
-                  label
-                    input.radio(type='radio', name='calories', value='2400 кКал / Большое / 400грн')
-                    span.input-circle
-                    p 2400 кКал
-                  label
-                    input.radio(type='radio', name='calories', value='2600 кКал / Большое / 400грн')
-                    span.input-circle
-                    p 2600 кКал
-                  h4.serif 
-                    |400
-                    span грн/день
-          .col-md-3.other-price
-            .row
-              .col-xs-12
-                .price-item.trial-day
-                  label
-                    .row
-                      .col-xs-4
-                        input.radio(type='radio', name='calories', value='Smart lunch')
-                        span.input-circle
-                        
-                      .col-xs-8
-                        h5.emoji-smart
-                          |Пробный день
-                          span 1440 кКал
-                        h4.serif 
-                          |300 
-                          span грн
-              .col-xs-12
-                .price-item.smart-lunch
-                  label
-                    .row
-                      .col-xs-4
-                        input.radio(type='radio', name='calories', value='Smart lunch')
-                        span.input-circle
-                      .col-xs-8
-                        h5
-                          |Smart lunch
-                          span Доставка до 15 часов!
-                        h4.serif 
-                          |180 
-                          span грн/день
-                br
-                p.small-text Smart Lunch за 150 грн от 3-х человек
+                    | в пон.
+          .col-md-3.col-sm-6.col-xs-12.data-style
+            img(src="img/style/calendar.png", alt="")
+            input.data-pick(data-toggle="datepicker", placeholder="дата")
+                    
+                    
               
         .row.bottom-form-inputs
+          .col-md-12
+            br
+            h2.title-style количество дней
+            br
+          .col-md-4
+            .inputs-boxes
+              input(type='radio', name='days', value='1 день')
+              label.box-days
+                span 1 
+                | день 
           
-          .col-md-6.col-sm-12
-            h6 количество дней
-            .how-days-inputs
-              .inputs-boxes
-                input(type='radio', name='days', value='1 день')
-                label.box-days
-                  span 1
-                  | день 
-              .inputs-boxes
-                input(type='radio', name='days', value='5 дней')
-                label.box-days
-                  span 5
-                  | дней 
-              .inputs-boxes
-                input(type='radio', name='days', value='10 дней')
-                label.box-days
-                  span 10
-                  | дней
-              .inputs-boxes
-                input(type='radio', name='days', value='30 дней')
-                label.box-days
-                  span 30
-                  | дней
+          .col-md-4
               
-                
-            
-            .text-info
-              p Чтобы блюда Вам не приедались мы разработали новое меню на 10 дней. Меню представлено в ознакомительных целях, возможны изменения
-                
-              
-          .col-md-3.col-sm-6
-            .eat-persons
-              img(src="img/icon/emoji/8.png", alt="")
-              br
-              h6 приборы
-              .form-select-box
-                span
-                  select.serif(name='person')
-                    option(value='1', selected='') 1
-                    option(value='2') 2
-                    option(value='3') 3
-                    option(value='4') 4
-                    option(value='5') 5
-                    option(value='not') без
-          .col-md-3.col-sm-6.comment-box
-            textarea#comment(name="comment", placeholder="Напишите ваши вопросы или пожелания")
+            .inputs-boxes
+              input(type='radio', name='days', value='5 дней')
+              label.box-days
+                span 5
+                | дней
+          .col-md-4
+            .inputs-boxes
+              input(type='radio', name='days', value='10 дней')
+              label.box-days
+                span 20
+                | дней
+ 
+        
+        .row
+          .col-md-12.text-center
+            br
+            h2.title-style данные для доставки
+            br
+        
+        .row
+          .col-md-12
+            input(name='subject', type='hidden', value='Eater: форма заказа')
+            .row.form-text-inputs
+              .col-md-6
+                input(name='username', type='text', placeholder="имя и фамилия")
+              .col-md-6
+                input#phone(name='phone', type='text', placeholder="номер телефона")
+              .col-md-8.col-sm-8
+                input(name='ulitsa', type='text', placeholder="улица")
+              .col-md-2.col-sm-2
+                input(name='dom', type='text', placeholder="дом")
+              .col-md-2.col-sm-2
+                input(name='kvartira', type='text', placeholder="кв.")
+        .row
+          .col-md-12.comment-box
+            textarea#comment(name="comment", placeholder="оставить комментарий...")
             label#call-me
               input.radio(type="checkbox" name="callme")
-              span Перезвоните мне для уточнения деталей  
+              span Перезвонить для уточнения деталей  
+        
+        
         .row
           .col-md-12
             .form-item-submit
-              input#send_form(type='submit', name='submit', value='ОТПРАВИТЬ')
+              input#send_form(type='submit', name='submit', value='Отправить')
       
   
                 
-    //
-      ."<br/>0 - 06:30 - 07:00, 1 - 06:30 - 07:00 07:00 - 07:30, 2 - 07:30 - 08:00, 3 - 06:30 - 07:00 07:00 - 07:30 07:30 - 08:00 08:00 - 08:30, 4 - 08:00 - 08:30, 5 - 08:30 - 09:00, 6 - 09:00 - 09:30, 7 - 09:30 - 10:00, 8 - 10:00 - 10:30, 9 - 10:30 - 11:00, 10 - 11:00 - 11:30, 11 - 11:30 - 12:00"
-      ."<br/>0 - 1 день, 1 - 5 дней, 2 - 10 дней, 3 - 30 дней"          
-    //section#form-in.form-in
-      .mega-title
-        h2.serif.title Заказать
-      .container
-        .row
-          .col-md-4.col-md-offset-4.text-center
-            p.title-mini-text
-              | Оформите заказ по телефону или онлайн на сайте на необходимое количество дней или недель
-      .container.content
-        input(name='subject', type='hidden', value='Eater: Форма заказа')
-        .row.main-info
-          .col-lg-6.col-sm-6
-            .form-item
-              label Имя Фамилия
-              input.serif(name='username', type='text')
-          .col-lg-6.col-sm-6
-            .form-item
-              label Номер телефона
-              input.serif(name='phone', type='number')
-          .col-lg-6.col-sm-6
-            .form-item
-              label Адрес доставки
-              input.serif(name='address', type='text')
-          .col-lg-6.col-sm-6
-            p.small
-              br
-              | Если у вас возникли вопросы, вы можете позвонить  по номеру 
-              span  +38 068 55 119 55
-              |  или 
-              span +38 073 55 911 55 
-              |  для уточнения деталей. 
-              br
-              | Время работы: 
-              span пн-сб 10:00-18:00; вс 10:00-16:00. 
-        br
-        br
-        .row
-          .col-lg-6
-            h2#delivery-time доставка и оплата
-            p.small
-              | Доставка программ питания происходит строго 1 раз в день в утренние часы в один из выбранных вами промежутков времени. Оплата наличными курьеру при получении или безналичная форма оплаты. В стоимость рациона входит 5-6 блюд и доставка.
-          .col-md-6.form-select-box
-            span
-              select.serif(name='time')
-                option(disabled='', selected='', value='') Выбрать время
-                option(value='06:30-07:00') 06:30 - 07:00
-                option(value='07:00-07:30') 07:00 - 07:30
-                option(value='07:30-08:00') 07:30 - 08:00
-                option(value='08:00-08:30') 08:00 - 08:30
-                option(value='08:00-08:30') 08:00 - 08:30
-                option(value='08:30-09:00') 08:30 - 09:00
-                option(value='09:00-09:30') 09:00 - 09:30
-                option(value='09:30-10:00') 09:30 - 10:00
-                option(value='10:00-10:30') 10:00 - 10:30
-                option(value='10:30-11:00') 10:30 - 11:00
-                option(value='11:00-11:30') 11:00 - 11:30
-                option(value='11:00-11:30') 14:00 - 15:00 Smart lunch
-        br
-        br
-        .row
-          .col-lg-6
-            h2
-              span#chois-menu Меню 
-              | и 
-              span#chois-ration рацион
-            p.small
-              | Чтобы блюда Вам не приедались мы разработали  3 недели разные недели,  сегодня Вы кушаете по меню недели №2. Для рационов на 2400 ккал и выше добавляем углеводы на ужин.  Вы можете сами выбрать калорийность подходящую именно вам или же, просто заполните форму
-              button.open-new-form рассчитать калории
-              |  и наш менеджер свяжется с Вами
-            p.small
-              | Вы можете выбрать меню без мяса. В этом случаи все мясные компоненты будут заменены на сыр тофу или рыбу.
-            .row.form-for-menu
-              .col-md-3.col-xs-6
-                label#week1.week-title
-                  input.radio(type='radio', name='howmenu', value='С мясом')
-                  span
-                  .circl-bg(style='background-image: url(img/update/meat.png)')
-                  h4.serif С мясом
-              .col-md-3.col-xs-6
-                label#week3.week-title
-                  input.radio(type='radio', name='howmenu', value='Без мяса все таки')
-                  span
-                  .circl-bg(style='background-image: url(img/update/veg.png)')
-                  h4.serif Без мяса
-                  
-                  
-            .row.comment-and
-              .col-md-10.col-xs-12
-                h2 Комментарий
-                textarea#comment(name="comment", placeholder="Напишите сюда что хотите")
-                label#call-me
-                  input.radio(type="checkbox" name="callme")
-                  span Перезвоните мне для уточнения деталей
-          .col-lg-6.col-sm-8.radio-button.form-how-cal
-            h4.emoji-week &nbsp;Меню недели
-            .form-item
-              ul
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='1200 кКал / Маленькое / 320грн')
-                    span
-                      p 1200 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='1400 кКал / Маленькое / 320грн')
-                    span
-                      p 1400 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='1600 кКал / Маленькое / 320грн')
-                    span
-                      p 1600 кКал
-                li
-                  h5.mini-title Цена
-                  h3.serif 320 грн
-            .form-item
-              ul
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='1800 кКал / Среднее / 360грн')
-                    span
-                      p 1800 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='2000 кКал / Среднее / 360грн')
-                    span
-                      p 2000 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='2200 кКал / Среднее / 360грн')
-                    span
-                      p 2200 кКал
-                li
-                  h5.mini-title Цена
-                  h3.serif 360 грн
-            .form-item
-              ul
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='2400 кКал / Большое / 380грн')
-                    span
-                      p 2400 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='2600 кКал / Большое / 380грн')
-                    span
-                      p 2600 кКал
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='2800 кКал / Большое / 380грн')
-                    span
-                      p 2800 кКал
-                li
-                  h5.mini-title Цена
-                  h3.serif 380 грн
-            .form-item.smart-lunch
-              ul
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='Smart lunch')
-                    span
-                    h4.emoji-smart
-                      |&nbsp;Smart lunch
-                      span Доставка до 15 часов!
-                li
-                  h5.mini-title Цена
-                  h3.serif 180 грн
-            .form-item.trial-day
-              ul
-                li
-                  label
-                    input.radio(type='radio', name='calories', value='Trial Day')
-                    span
-                    h4.emoji-trial
-                      |&nbsp;Пробный день
-                      span 1400 кКал
-                li
-                  h5.mini-title Цена
-                  h3.serif 280 грн
-        
-        
-        
-        .row.new-form
-          .form_ration
-            .row
-              .col-md-12
-                h3 параметры
-            .row.text-inputs
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-8  
-                    | Вес
-                  input.serif(type='number', name='ves', value='')
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-1
-                    | Рост
-                  input.serif(type='number', name='rost', value='')
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people
-                    | Возраст
-                  input.serif(type='number', name='vozrast', value='')
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people
-                    | Аллергия
-                  input.serif(type='text', name='alergiya', value='')
-            .row
-              .col-md-12
-                h3#your-activity Активность
-            .row.radio-inputs
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-4
-                    | Низкая
-                    input(type='radio', name='activity', value='Низкая')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-technology
-                    | Малая
-                    input(type='radio', name='activity', value='Малая')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-5
-                    | Средняя
-                    input(type='radio', name='activity', value='Средняя')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-7
-                    | Высокая
-                    input(type='radio', name='activity', value='Высокая')
-                    span
-            .row
-              .col-md-12
-                h3#your-goal Цель
-            .row.radio-inputs
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-3
-                    | Похудение
-                    input(type='radio', name='goal', value='Похудение')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-people-2
-                    | Поддержание
-                    input(type='radio', name='goal', value='Поддержание')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-food
-                    | Набор веса
-                    input(type='radio', name='goal', value='Набор веса')
-                    span
-              .col-md-3.col-xs-6
-                .form-item
-                  label
-                    i.flaticon-icon-10561
-                    | Неизвестна
-                    input(type='radio', name='goal', value='Неизвестна')
-                    span
-        .row
-          .col-md-6.col-md-offset-3
-            .form-item-submit
-              input#send_form(type='submit', name='submit', value='ОТПРАВИТЬ')
+    
     #modal_send_ifcomplete
       p
         | Заявка отправлена
         br
         span спасибо что выбрали нас
-    button.sms-call
-      i.fa.fa-phone
-      span.open-sms Заказать звонок
-      span.close-sms Закрыть
+    
     .modal-overlay
       .sms-call.modall
       .modal-box
@@ -841,6 +400,8 @@ html(lang='ru')
     script(src='js/scripts-min.js')
     
     // script(src='js/bootstrap.min.js')
+    script(src='js/mask.js')
+    script(src='js/datepicker.js')
     script(src='js/app.js')
     script(src='control.js')
 

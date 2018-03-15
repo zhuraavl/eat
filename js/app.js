@@ -1,41 +1,37 @@
-$('.time-range-slider-nav li').on('click', function() {
-    var val = $(this).find("span").text(),
-      $range = $('#time-range-slider');
-    $range.val(val);
-    $range.trigger('input');
-  });
-  $('#time-range-slider').on('input', function() {
-    var val = $(this).val();
-    $('.time-range-slider-nav li').each(function(i) {
-      if (i == val) {
-        $(this).addClass('active');
-      } else {
-        $(this).removeClass('active');
-        
-      }
-    });
-  });
-
-
-
-
-
 jQuery(document).ready(function ($) {
   'use strict';
+  
+  
+  $("#phone").mask("(999) 999-99-99");
+  
+  
+  
+  $('[data-toggle="datepicker"]').datepicker({
+    language: 'ru-RU',
+    format: 'dd-mm-yyyy'
+  });
+  
 
-$(function() {
-	$("#no-meat").click(function() {
-		var target = $(".my-text");
-		var pic = $(".my-pic");
-		if($(this).prop('checked')) {
-			target.html('Без мяса');
-			pic.html('<img src="img/icon/emoji/7.png" alt="">');
-		} else {
-			target.html('С мясом');
-      pic.html('<img src="img/icon/emoji/6.png" alt="">');
-		}
-	})
-})
+  
+  $("input#tomorrow").click(function () {
+    $('.data-pick').datepicker('pick');
+  });
+  
+  
+  $('.slider-features-style').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    vertical: true,
+    dots: false,
+    arrows: false
+  });
+  
+  
+  
+  
+
 
 $(".form-steps button.next").click(function () {
     event.preventDefault();
@@ -68,60 +64,7 @@ $(".form-steps button.next").click(function () {
 
 
 
-//  function parseDate(str) {
-//    var mdy = str.split('/');
-//    return new Date(mdy[2], mdy[0] - 1, mdy[1]);
-//  }
-//
-//  function daydiff(first, second) {
-//    return Math.round((second - first) / (1000 * 60 * 60 * 24));
-//  }
-//
-//  console.log(daydiff(parseDate($('#first').val()), new Date()));
-//  var currentDays = daydiff(new Date(), parseDate($('#first').val())),
-//    div = currentDays % 10,
-//    menuDay;
-//    if (currentDays == 0) {
-//      menuDay = 1;
-//    } else if (div == 0) {
-//      menuDay = 10;
-//    }
-//    else {
-//      menuDay = (1 + div);
-//    }
-//  
-//  $(".day-" + menuDay).addClass("active-day");
-//  $(".day-" + menuDay).parent().next().find(".menu-item").addClass("next-day");
-//  $(".day-" + menuDay).parent().prev().find(".menu-item").addClass("prev-day");
 
-  
-
-
-
-
-
-
-  $(".menu-tabs-content").find('.tabs-item').hide();
-  $(".menu-tabs-content").find('.tabs-item:nth-child(2)').show();
-  (function ($) {
-
-    var tabs = $(".tabs li a");
-
-    tabs.click(function () {
-
-      var content = this.hash.replace('/', '');
-      tabs.removeClass("active");
-      $(this).addClass("active");
-      $(".menu-tabs-content").find('.tabs-item').hide();
-
-      $(content).fadeIn(500);
-
-      $('.slider-week').each(function () {
-        $(this).slick("getSlick").refresh();
-      });
-    });
-
-  })(jQuery);
 
 
 
@@ -132,30 +75,6 @@ $(".form-steps button.next").click(function () {
   setTimeout(loader, 1000);
 
 
-  //  var nowWeekOne = function () {
-  //    if ($("body").is(".week1")) {
-  //      $(".on-week1").click().addClass("active");
-  //    }
-  //  };
-  //  setTimeout(nowWeekOne, 100);
-  //  
-  //  var nowWeekTwo = function () {
-  //    if ($("body").is(".week2")) {
-  //      $(".on-week2").click().addClass("active");
-  //
-  //    }
-  //  };
-  //  setTimeout(nowWeekTwo, 100);
-  //  
-  //  var nowWeekThree = function () {
-  //    if ($("body").is(".week3")) {
-  //      $(".on-week3").click().addClass("active");
-  //
-  //    }
-  //  };
-  //  setTimeout(nowWeekThree, 100);
-
-
 
 
   $(".sms-call").click(function () {
@@ -163,96 +82,10 @@ $(".form-steps button.next").click(function () {
     $(".modal-overlay").toggleClass("show");
   });
 
-  $(".open-new-form, .go-to-new-form").click(function () {
-    $(".new-form").slideToggle("");
-    $(this).toggleClass("active");
-    $('html, body').animate({
-      scrollTop: $(".new-form").offset().top
-    }, 1000);
-  });
 
 
 
-  // weeks select
 
-
-  $(".week1-on").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#form-in").offset().top
-    }, 1000);
-  });
-  $(".week2-on").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#form-in").offset().top
-    }, 1000);
-  });
-  $(".week3-on").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#form-in").offset().top
-    }, 1000);
-  });
-  $(".week4-on").click(function () {
-    $('html, body').animate({
-      scrollTop: $("#form-in").offset().top
-    }, 1000);
-  });
-
-
-
-  // template tooggle class function
-
-  $('.menu-item-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
-    speed: 1000,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    centerPadding: "200px",
-    cssEase: 'ease-in-out',
-    pauseOnHover: false,
-    asNavFor: '.menu-item-slider-nav',
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          centerPadding: "0px"
-        }
-    }
-  ]
-  });
-  $('.menu-item-slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.menu-item-slider',
-    cssEase: 'ease-in-out',
-    arrows: false,
-    focusOnSelect: true
-  });
-
-
-  
-
-  // slider
-  $('.slider-hero').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    fade: true,
-    speed: 1000,
-    autoplaySpeed: 4000,
-    cssEase: 'ease-in-out',
-    pauseOnHover: false
-  });
-  $('.slider-week').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    speed: 500,
-    cssEase: 'ease-in-out',
-    dots: true
-  });
-
-  // loader make
 
   // scroll top or down button
   $(".scroll-to-menu").click(function () {
@@ -275,42 +108,8 @@ $(".form-steps button.next").click(function () {
 
 
 });
-
-//function Weeks () {
-//    var currentWeek = '';
-//    if ($("body").is(".week1")) currentWeek = 'week1';
-//    if ($("body").is(".week2")) currentWeek = 'week2';
-//    if ($("body").is(".week3")) currentWeek = 'week3';
-//    if (currentWeek != '') $("#" + currentWeek).addClass("active").click();
-//  };
-//Weeks();
-
-// SEND FORM
 jQuery(document).ready(function ($) {
 
-
-  //    $("#send_form").click(function reset(){
-  //        $('input[type=text]').val('');  
-  //        $('input[type=radio]').val('');
-  //    });
-
-
-
-  //    $("#send_form").click(function reset(){
-  //        $('input[type=text]').val('');  
-  //        $('input[type=radio]').val('');
-  //            
-  //    });
-
-
-  //    $('#send_form').click(function (event) {
-  //        
-  //        if ($('#modal_send_ifcomplete').hasClass('.true').each(function reset{
-  //                
-  //              });
-  //        )
-  //        //$('input[type=radio]').getElementById("#chois-ration") = false;
-  //    });
 
 
 

@@ -289,17 +289,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/andrelogo.png": {
-		"ft": 32768,
-		"iS": 4984,
-		"oA": 0,
-		"oAP": "\/img\/andrelogo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/cir.jpg": {
 		"ft": 16384,
 		"iS": 177594,
@@ -320,120 +309,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/img\/day1\/1.jpg": {
-		"ft": 16384,
-		"iS": 144473,
-		"oA": 0,
-		"oAP": "\/img\/day1\/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/2.jpg": {
-		"ft": 16384,
-		"iS": 141424,
-		"oA": 0,
-		"oAP": "\/img\/day1\/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/3.jpg": {
-		"ft": 16384,
-		"iS": 164075,
-		"oA": 0,
-		"oAP": "\/img\/day1\/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/4.jpg": {
-		"ft": 16384,
-		"iS": 208149,
-		"oA": 0,
-		"oAP": "\/img\/day1\/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/5.jpg": {
-		"ft": 16384,
-		"iS": 153087,
-		"oA": 0,
-		"oAP": "\/img\/day1\/5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/6.jpg": {
-		"ft": 16384,
-		"iS": 153087,
-		"oA": 0,
-		"oAP": "\/img\/day1\/6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/7.jpg": {
-		"ft": 16384,
-		"iS": 97695,
-		"oA": 0,
-		"oAP": "\/img\/day1\/7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/8.jpg": {
-		"ft": 16384,
-		"iS": 97695,
-		"oA": 0,
-		"oAP": "\/img\/day1\/8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/day1\/9.jpg": {
-		"ft": 16384,
-		"iS": 198146,
-		"oA": 0,
-		"oAP": "\/img\/day1\/9.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/footer.gif": {
-		"ft": 4194304,
-		"iS": 1005958,
-		"oA": 0,
-		"oAP": "\/img\/footer.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/footer2.gif": {
-		"ft": 4194304,
-		"iS": 1030992,
-		"oA": 0,
-		"oAP": "\/img\/footer2.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/footer3.gif": {
-		"ft": 4194304,
-		"iS": 1021879,
-		"oA": 0,
-		"oAP": "\/img\/footer3.gif",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/img\/giphy.gif": {
 		"ft": 4194304,
@@ -564,66 +439,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/insta\/1.jpg": {
-		"ft": 16384,
-		"iS": 117884,
-		"oA": 0,
-		"oAP": "\/img\/insta\/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/insta\/2.jpg": {
-		"ft": 16384,
-		"iS": 81755,
-		"oA": 0,
-		"oAP": "\/img\/insta\/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/insta\/3.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img\/insta\/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/insta\/4.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/img\/insta\/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/insta\/5.jpg": {
-		"ft": 16384,
-		"iS": 176660,
-		"oA": 0,
-		"oAP": "\/img\/insta\/5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/insta\/6.jpg": {
-		"ft": 16384,
-		"iS": 114309,
-		"oA": 0,
-		"oAP": "\/img\/insta\/6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/img\/logo_black.png": {
 		"ft": 32768,
 		"iS": 57254,
@@ -651,39 +466,6 @@
 		"iS": 36371,
 		"oA": 0,
 		"oAP": "\/img\/logo_white.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/start\/1.png": {
-		"ft": 32768,
-		"iS": 92904,
-		"oA": 0,
-		"oAP": "\/img\/start\/1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/start\/2.png": {
-		"ft": 32768,
-		"iS": 110181,
-		"oA": 0,
-		"oAP": "\/img\/start\/2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/start\/3.png": {
-		"ft": 32768,
-		"iS": 99555,
-		"oA": 0,
-		"oAP": "\/img\/start\/3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -889,6 +671,23 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/img\/style\/a1.jpg": {
+		"ft": 16384,
+		"iS": 305873,
+		"oA": 0,
+		"oAP": "\/img\/style\/a1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/style\/a2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/style\/a2",
+		"oF": 0
 		},
 	"\/img\/style\/calendar.png": {
 		"ft": 32768,

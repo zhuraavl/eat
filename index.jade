@@ -50,52 +50,48 @@ html(lang='ru')
               .item
                 p закажите доставку 2-х программ на один адрес - получите скидку!
     section.style-hero
-      .menu-style-box
-        h4 
-          b eater 
-          |— это проект для людей, которые хотят правильно, регулярно и разнообразно питаться в течение всего дня, не тратя при этом ни сил, ни времени.
-        a.btn(href="#update-menu") смотреть меню
-        br
-        a.btn(href="#link-to-form") наши цены
-        br
-        a.btn(href="#link-to-form") закзать
-        br
-        button.sms-call
-          span.open-sms позвонить мне
-          img(src="img/style/call.png", alt="")
-      //.city-box
-        p 
-          |Готовим и доставляем 
-          b завтрак, обед и ужин 
-          |каждый день
-        br
-        p 
-          | Cделайте заказ 
-          b до 18:00 
-          | и получите меню 
-          b на следующий день
-      .logo-box
-        a.logo(href='/')
-          img(src='img/logo_black.png', alt='')
-      .phone-box
-        p.social-box
-          a(href='https://www.instagram.com/eater.od')
-            i.fab.fa-instagram
-          a(href='https://www.facebook.com/eater.od/?fref=ts')
-            i.fab.fa-facebook-f
-          a(href='https://www.instagram.com/eater.od')
-            i.fab.fa-viber
-        br
-        p одесса
-        br
-        p
-          |068 551 19 55
-          br
-          |073 559 11 55
-        
-        
+      .container-fluid
+        .row
+          .col-md-6.col-sm-12
+            .logo-box
+              a.logo(href='/')
+                img(src='img/logo_black.png', alt='')
+            .logo-box-white
+              a.logo(href='/')
+                img(src='img/logo_min-white.png', alt='')
+        .row
+          .col-md-4.col-xs-12.menu-style-box
+            h4 
+              b eater 
+              |— это проект для людей, которые хотят правильно, регулярно и разнообразно питаться в течение всего дня, не тратя при этом ни сил, ни времени.
+            a.btn(href="#update-menu") смотреть меню
+            br
+            a.btn(href="#link-to-form") наши цены
+            br
+            a.btn(href="#link-to-form") закзать
+            br
+            button.sms-call
+              span.open-sms позвонить мне
+              img(src="img/style/call.png", alt="")
+          .col-md-3.col-xs-12.phone-box
+            p.social-box
+              a(href='https://www.instagram.com/eater.od')
+                i.fab.fa-instagram
+              a(href='https://www.facebook.com/eater.od/?fref=ts')
+                i.fab.fa-facebook-f
+              a(href='https://www.instagram.com/eater.od')
+                i.fab.fa-viber
+            br
+            p одесса
+            br
+            p
+              |068 551 19 55
+              br
+              |073 559 11 55
+
         
       
+        
 
       .hover-slider
         .hover-item
@@ -152,7 +148,7 @@ html(lang='ru')
             h2.title-style размер и цена
             br
         .row
-          .col-md-3.col-sm-6.col-xs-12
+          .col-md-3.col-sm-6.col-xs-6
             label.price-check-style
               input.radio(type='radio', name='calories', value='2400 кКал / Большое / 400грн')
               span.input-circle
@@ -161,7 +157,7 @@ html(lang='ru')
                 h4
                   |440 
                   span грн/в день
-          .col-md-3.col-sm-6.col-xs-12
+          .col-md-3.col-sm-6.col-xs-6
             label.price-check-style
               input.radio(type='radio', name='calories', value='2000 кКал / Среднее / 360грн')
               span.input-circle
@@ -170,7 +166,7 @@ html(lang='ru')
                 h4
                   |400 
                   span грн/в день
-          .col-md-3.col-sm-6.col-xs-12
+          .col-md-3.col-sm-6.col-xs-6
             label.price-check-style
               input.radio(type='radio', name='calories', value='1800 кКал / Среднее / 360грн' checked="")
               span.input-circle
@@ -179,7 +175,7 @@ html(lang='ru')
                 h4
                   |380 
                   span грн/в день
-          .col-md-3.col-sm-6.col-xs-12
+          .col-md-3.col-sm-6.col-xs-6
             label.price-check-style
               input.radio(type='radio', name='calories', value='1200 кКал / Маленькое / 340грн')
               span.input-circle
@@ -248,7 +244,8 @@ html(lang='ru')
             br
           .col-md-6.col-sm-12
             .form-select-box
-              select
+              select(name='days')
+                option(disabled) выбрать время
                 option 06:30 - 07:00
                 option 07:00 - 07:30
                 option 07:30 - 08:00
@@ -273,7 +270,7 @@ html(lang='ru')
                     | в пон.
           .col-md-3.col-sm-6.col-xs-12.data-style
             img(src="img/style/calendar.png", alt="")
-            input.data-pick(data-toggle="datepicker", placeholder="дата")
+            input#date-dostavki.data-pick(data-toggle="datepicker", placeholder="дата",)
                     
                     
               
@@ -378,8 +375,8 @@ html(lang='ru')
             .row.all-text
               .col-md-4
                 h5.mini-title Контакты
-                h4 +38 068 55 119 55
-                h4 +38 073 55 911 55
+                p 068 551 19 55
+                p 073 559 11 55 
                 a(href='') eater.in.ua@gmail.com
               .col-md-4
                 h5.mini-title Люди
@@ -391,12 +388,19 @@ html(lang='ru')
                       | Ира 
                       br
                       | Летинская
+                .row
+                  .col-xs-12
                     h6 Организатор, владелец
-              .col-md-4
+              .col-md-4.social
                 h5.mini-title Соц.сети
                 p Следите за нами в соцсетях!
-                a(href='https://www.facebook.com/eater.od/?fref=ts') Facebook
-                a(href='https://www.instagram.com/eater.od') Instagram
+                a(href='https://www.instagram.com/eater.od')
+                  i.fab.fa-instagram
+                a(href='https://www.facebook.com/eater.od/?fref=ts')
+                  i.fab.fa-facebook-f
+                a(href='https://www.instagram.com/eater.od')
+                  i.fab.fa-viber
+                
     script(src='js/scripts-min.js')
     
     // script(src='js/bootstrap.min.js')

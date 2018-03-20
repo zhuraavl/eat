@@ -14,7 +14,10 @@ jQuery(document).ready(function ($) {
 
   
   $("input#tomorrow").click(function () {
-    $('.data-pick').datepicker('pick');
+    $('.data-pick').datepicker('setDate', +1);
+  });
+  $("input#ponedelnik").click(function () {
+    $('.data-pick').datepicker('setDate', '+' +(8 - new Date(),  getDay()));
   });
   
   
@@ -173,75 +176,39 @@ jQuery(document).ready(function ($) {
     var err = false;
     var additional_field = false;
     var addition = $(".open-new-form");
-
     var data = new FormData();
-
+    
     var subject = $("input[name=subject]");
-
     var username = $("input[name=username]");
-    var address = $("input[name=address]");
     var phone = $("input[name=phone]");
-    var alergiya = $("input[name=alergiya]");
-    var vozrast = $("input[name=vozrast]");
-    var rost = $("input[name=rost]");
-    var ves = $("input[name=ves]");
-    var calories = $('input[name=calories]:checked');
-    var howmenu = $('input[name=howmenu]:checked');
+    var dom = $("input[name=dom]");
+    var ulitsa = $("input[name=ulitsa]");
+    var kvartira = $("input[name=kvartira]");
     var comment = $('textarea[name=comment]');
+    var calories = $('input[name=calories]:checked');
     var callme = $('input[name=callme]');
-    var time = $('.time-range-slider-nav li.active');
-    var days = $('input[name=days]');
-    var person = $('select[name=person] option:selected');
-    var goal = $('input[name=goal]:checked');
-    var activity = $('input[name=activity]:checked');
-
+    var time = $('select[name=time] option:selected');
+    var days = $('input[name=days]:checked');
     
     if (($(calories).val() == '' || $(calories).length == 0) && !$(addition).hasClass('active')) {
       err = true;
       $('#chois-ration').addClass('has-error');
     }
-    if ($(addition).hasClass('active')) {
-      if ($(activity).val() == undefined || $(activity).length == 0) {
-        err = true;
-        $('#your-activity').addClass('has-error');
-      }
-      if ($(goal).val() == undefined || $(goal).length == 0) {
-        err = true;
-        $('#your-goal').addClass('has-error');
-      }
-      if ($(rost).val() == '') {
-        err = true;
-        $(rost).parents('.form-item:first').addClass('has-error');
-      }
-      if ($(ves).val() == '') {
-        err = true;
-        $(ves).parents('.form-item:first').addClass('has-error');
-      }
-      if ($(vozrast).val() == '') {
-        err = true;
-        $(vozrast).parents('.form-item:first').addClass('has-error');
-      }
-      additional_field = true;
-    }
 
     data.append("action", "send_form");
+    
     data.append('subject', $(subject).val());
     data.append('username', $(username).val());
-    data.append('address', $(address).val());
     data.append('phone', $(phone).val());
-    data.append('alergiya', $(alergiya).val());
-    data.append('vozrast', $(vozrast).val());
-    data.append('rost', $(rost).val());
-    data.append('ves', $(ves).val());
-    data.append('calories', $(calories).val());
-    data.append('howmenu', $(howmenu).val());
+    data.append('dom', $(dom).val());
+    data.append('ulitsa', $(ulitsa).val());
+    data.append('kvartira', $(kvartira).val());
     data.append('comment', $(comment).val());
+    data.append('calories', $(calories).val());
     data.append('callme', $(callme).is(':checked'));
     data.append('time', $(time).text());
     data.append('days', $(days).val());
-    data.append('person', $(person).val());
-    data.append('goal', $(goal).val());
-    data.append('activity', $(activity).val());
+    
     if (err == false) {
       jQuery.ajax({
         type: 'POST',

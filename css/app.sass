@@ -9,7 +9,7 @@
 
 
 //media
-$mobil: 480px
+$mobil: 340px
 $small: 767px
 $medium: 991px
 $desktop: 1170px
@@ -79,38 +79,42 @@ a
 .style-hero
   min-height: 100vh
   position: relative
-  
-  .logo-box
-    position: absolute
-    width: 120px
-    left: 0
-    top: 45px
-    right: 0
-    margin: auto
-    z-index: 10
-    .logo
-      max-width: 400px
-      display: block
-      margin: auto
-  .menu-style-box
-    position: absolute
-    top: 100px
-    left: -75%
-    right: 0
-    margin: auto
-    width: 200px
-    z-index: 500
+  padding: 0 100px
+  @include respond-to(small)
+    padding: 0 15px
+  .logo-box, .logo-box-white
+    padding-top: 75px
+    padding-bottom: 50px
     @include respond-to(small)
-      position: relative
-      top: 150px
-      left: auto
-      width: 100%
-      padding: 0 30px
+      padding-bottom: 35px
+      padding-top: 50px
+    .logo
+      max-width: 150px
+      display: block
+      
+  .logo-box
+    @include respond-to(small)
+      display: none
+  .logo-box-white
+    display: none
+    @include respond-to(small)
+      display: block
+      .logo
+        margin: auto
+      
+  .menu-style-box
+    @include respond-to(small)
+      text-align: center
+      color: #fff
     h4
       font-size: 24px
       font-weight: 300
       width: 300px
+      padding-bottom: 1em
       @include respond-to(small)
+        font-size: 18px
+        width: 100%
+      @include respond-to(mobil)
         font-size: 14px
     a
       font-size: 18px
@@ -123,8 +127,10 @@ a
       cursor: pointer
       border-bottom: 1px solid
       @include respond-to(small)
-        font-size: 12px
+        font-size: 14px
         padding: .5rem 1rem
+      @include respond-to(mobil)
+        font-size: 12px
     .btn
       background: #17ac10
       color: #fff
@@ -141,7 +147,7 @@ a
         transition: all .5s
         font-size: 18px
         @include respond-to(small)
-          font-size: 12px
+          font-size: 14px
       img
         width: 34px
         vertical-align: sub
@@ -167,34 +173,27 @@ a
       border-radius: 5px
       border: 1px solid #ccc
   .social-box
+    padding-top: .4em
     a
       font-size: 30px
-      margin-left: 1em
+      margin-right: 1em
       @include respond-to(small)
-        margin-left: 0
-        margin-right: 1em
-        font-size: 20px
+        font-size: 24px
+        color: #fff
+        margin: 0 .5em
   .phone-box
-    position: absolute
-    top: 120px
-    right: -75%
-    left: 0
-    margin: auto
-    width: 200px
-    text-align: right
+    z-index: 10
     @include respond-to(small)
-      text-align: left
-      position: relative
-      top: 190px
-      right: auto
-      width: 100%
-      padding: 0 30px
+      text-align: center
+      padding: 30px 30px 0
+      color: #fff
     p
       font-size: 22px
       margin: 0
       @include respond-to(small)
+        font-size: 18px
+      @include respond-to(mobil)
         font-size: 14px
-  
 
       
       
@@ -202,12 +201,29 @@ a
       
   .hover-slider
     position: absolute
-    width: 100%
+    width: 50%
     height: 100vh
-    left: 0
+    right: 0
     top: 0
     z-index: 1
-    
+    @include respond-to(small)
+      width: 100%
+      z-index: -1
+      
+    &:after
+      content: ''
+      position: absolute
+      width: 100%
+      height: 100%
+      left: 0
+      top: 0
+      background: #000
+      opacity: .6
+      display: none
+      @include respond-to(small)
+        display: block
+    @include respond-to(small)
+      top: -10px
       
     .hover-item
       float: left
@@ -217,19 +233,24 @@ a
         position: absolute
         width: 100%
         height: 100vh
-        background-size: 40%
+        background-size: cover
         background-position: center
         background-repeat: no-repeat
         opacity: 0
         left: 0
-        bottom: 0
+        top: 0
         z-index: -1
         @include respond-to(small)
-          background-position: bottom right
-          background-size: 50%
+          background-size: cover
       &:first-child
         .bg
           opacity: 1
+        @include respond-to(small)
+          opacity: 0
+      &:nth-child(7)
+        .bg
+          @include respond-to(small)
+            opacity: 1 !important
       &:hover
         .bg
           opacity: 1
@@ -257,6 +278,9 @@ a
         padding: 25px 0
         @include respond-to(small)
           padding: 10px
+        @include respond-to(mobil)
+          font-size: 14px
+          padding: 12px
         span.easy-button
           display: inline-block
           padding: 3px 5px
@@ -265,6 +289,7 @@ a
           text-transform: capitalize
           font-weight: 300
           margin-left: .5em
+            
       &:first-child
         display: block
       
@@ -286,11 +311,12 @@ a
   @include respond-to(small)
     height: 100%
     margin-bottom: 25px
+  
   h2
     font-size: 70px
     font-weight: 400
     color: #fff
-    margin: 20px 0 20px
+    margin: 25px 0 25px
     -webkit-text-stroke: 1px #000
   .radio
     opacity: 0
@@ -335,7 +361,13 @@ a
     top: 0
     border: 1px solid #ccc
     transition: all .3s
-    padding: 30px 20px
+    overflow: hidden
+    padding-top: 25px
+    .row
+      padding: 10px 30px
+      &:first-child
+        padding-top: 20px
+        border-bottom: 1px solid #bebebe
     @include respond-to(small)
       position: relative
       height: auto
@@ -348,12 +380,14 @@ a
   &.trial-day-style
     color: #747474
   &.smart-lunch-style
-    color: #ff839c
+    color: #747474
   &.smart-lunch-style, &.trial-day-style
     text-align: left
     padding: 30px 50px
     min-height: 235px
     height: auto
+    .input-circle
+      padding-top: 0 !important
     @include respond-to(small)
       width: 100%
       padding: 0
@@ -1093,9 +1127,6 @@ footer
         padding: 0 2em
         margin-bottom: 1em
         text-align: center
-  
-        
-        
         
   .all-text
     position: relative
@@ -1105,26 +1136,42 @@ footer
     h4
       color: #fff
       margin: 0
-      font-size: 16px
+      font-size: 18px
+    p
+      font-size: 18px
+      margin: 5px 0
     h6
-      margin: 0
-      font-size: 12px
-      color: #999
+      margin: 10px 0 0
+      font-size: 14px
+      color: #adadad
     a
-      display: block
-      color: #b6eeff
+      font-weight: bold
+      color: #fff
+      padding-top: 20px
+    .social
+      a
+        padding-top: 5px
+        display: inline-block
+        font-size: 32px
+        margin-right: 1em
+        @include respond-to(small)
+          margin-right: .5em
+          margin-left: .5em
+          font-size: 26px
     .mini-title
       font-weight: 800
       color: #ddd
-      text-transform: uppercase
+      text-transform: lowercase
       letter-spacing: 1px
+      font-size: 18px
+      margin-bottom: 1em
       @include respond-to(small)
         margin-top: 2em
     .circle-img
       position: relative
       display: block
-      width: 55px
-      height: 55px
+      width: 50px
+      height: 50px
       border-radius: 100%
       background-size: cover
       background-position: center
@@ -1277,6 +1324,7 @@ button
   position: relative
   overflow: hidden
   z-index: 100
+  padding-top: 25px
   .big-title-menu
     height: 150px
     position: relative
@@ -1351,24 +1399,31 @@ button
   &:before
     content: ''
     position: absolute
-    font-size: 18px
+    font-size: 24px
     display: block
     width: auto
-    left: 50px
-    font-weight: 500
-    top: 45px
+    right: 0px
+    font-weight: 600
+    background: #000
+    width: 50%
+    top: 56px
+    padding: 5px 0 12px
+    text-align: center
 .active-day
   border: 1px solid #17ac10 !important
   color: #17ac10 !important
   &:before
+    background: #17ac10
+    color: #fff
     content: 'сегодня'
-  .menu-info h2 
+    
 .next-day
   border: 1px solid #dea200 !important
   color: #e39a24
   &:before
+    background: #e39a24
+    color: #fff
     content: 'завтра'
-  .menu-info h2 
 
           
           
@@ -1379,13 +1434,16 @@ button
     width: 85%
     margin: auto
     position: relative
-    padding: 5px 50px 0
     border: 1px solid #000
     background: #fff  
     @include respond-to(small)
       width: 100%
     .menu-names
-      height: 600px
+      height: 500px
+      padding: 0 50px
+      @include respond-to(small)
+        height: auto
+        padding: 0 15px
       h4
         font-size: 16px
         font-weight: 600
@@ -1394,37 +1452,40 @@ button
         text-transform: lowercase
       p
         font-weight: 300
-        font-size: 20px
+        font-size: 16px
         line-height: 1.2
     .menu-name-item
-      margin-bottom: 25px
+      margin-bottom: 20px
       
     .menu-info
-      margin-bottom: 50px
-      margin-top: 35px
       position: relative
       h2
-        font-size: 80px
-        font-weight: 400
+        font-size: 50px
+        font-weight: bold
         line-height: 1
+        margin-top: -10px
+        width: 50%
+        border-bottom: 1px solid
+        border-right: 1px solid
+        padding: 20px 0 10px
         text-align: center
-        margin-top: 0px
-        padding-top: 10px
         span
           display: block
           font-size: 16px
           font-weight: 500
-          letter-spacing: 2px
           margin-bottom: 10px
-          text-transform: uppercase
+          margin-top: 10px
+            
       span.date
         position: absolute
-        top: 6px
-        text-align: right
-        width: 100%
-        font-weight: 300
+        top: 25px
+        width: 50%
+        right: 0
+        text-align: center
         font-size: 18px
         font-weight: bold
+        border-bottom: 1px solid
+        padding-bottom: 15px
   .slick-arrow
     position: absolute
     top: 50%

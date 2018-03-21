@@ -14,10 +14,10 @@ jQuery(document).ready(function ($) {
 
   
   $("input#tomorrow").click(function () {
-    $('.data-pick').datepicker('setDate', +1);
+    $('[data-toggle="datepicker"]').datepicker('setDate', +1);
   });
   $("input#ponedelnik").click(function () {
-    $('.data-pick').datepicker('setDate', '+' +(8 - new Date(),  getDay()));
+    $('[data-toggle="datepicker"]').datepicker('setDate', '+' +(8 - new Date(),  getDay()));
   });
   
   

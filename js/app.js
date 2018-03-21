@@ -30,7 +30,16 @@ jQuery(document).ready(function ($) {
     dots: false,
     arrows: false
   });
-  
+  $('.original-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    vertical: true,
+    dots: false,
+    pauseOnHover: false,
+    arrows: true
+  });
   
   
   

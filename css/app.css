@@ -37,7 +37,7 @@ a {
     .style-hero {
       padding: 0 15px; } }
   .style-hero .logo-box, .style-hero .logo-box-white {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 50px; }
     @media only screen and (max-width: 767px) {
       .style-hero .logo-box, .style-hero .logo-box-white {
@@ -45,7 +45,8 @@ a {
         padding-top: 50px; } }
     .style-hero .logo-box .logo, .style-hero .logo-box-white .logo {
       max-width: 150px;
-      display: block; }
+      display: block;
+      margin: auto; }
   @media only screen and (max-width: 767px) {
     .style-hero .logo-box {
       display: none; } }
@@ -56,67 +57,84 @@ a {
         display: block; }
         .style-hero .logo-box-white .logo {
           margin: auto; } }
-  @media only screen and (max-width: 767px) {
-    .style-hero .menu-style-box {
-      text-align: center;
-      color: #fff; } }
-  .style-hero .menu-style-box h4 {
-    font-size: 24px;
-    font-weight: 300;
-    width: 300px;
-    padding-bottom: 1em; }
+  .style-hero .menu-style-box {
+    margin-bottom: 35px; }
     @media only screen and (max-width: 767px) {
-      .style-hero .menu-style-box h4 {
-        font-size: 18px;
-        width: 100%; } }
-    @media only screen and (max-width: 340px) {
-      .style-hero .menu-style-box h4 {
-        font-size: 14px; } }
-  .style-hero .menu-style-box a {
-    font-size: 18px;
-    font-weight: 500;
-    display: inline-block;
-    margin: 0;
-    border-radius: 0;
-    text-align: left;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    border-bottom: 1px solid; }
-    @media only screen and (max-width: 767px) {
-      .style-hero .menu-style-box a {
-        font-size: 14px;
-        padding: .5rem 1rem; } }
-    @media only screen and (max-width: 340px) {
-      .style-hero .menu-style-box a {
-        font-size: 12px; } }
-  .style-hero .menu-style-box .btn {
-    background: #17ac10;
-    color: #fff;
-    border-bottom: 0; }
-    .style-hero .menu-style-box .btn:hover {
-      background: #177113; }
-  .style-hero .menu-style-box .sms-call {
+      .style-hero .menu-style-box {
+        text-align: center;
+        color: #fff; } }
+    .style-hero .menu-style-box h4 {
+      font-size: 24px;
+      font-weight: 300;
+      width: 300px;
+      margin: auto;
+      margin-bottom: 1em; }
+      @media only screen and (max-width: 767px) {
+        .style-hero .menu-style-box h4 {
+          font-size: 24px;
+          width: 100%; } }
+      @media only screen and (max-width: 340px) {
+        .style-hero .menu-style-box h4 {
+          font-size: 16px; } }
+    .style-hero .menu-style-box h5 {
+      font-size: 18px;
+      font-weight: 300;
+      width: 300px;
+      margin: auto;
+      margin-bottom: 1em; }
+    .style-hero .menu-style-box a {
+      font-size: 18px;
+      font-weight: 500;
+      display: inline-block;
+      margin: 0;
+      border-radius: 0;
+      text-align: left;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      border-bottom: 1px solid; }
+      @media only screen and (max-width: 767px) {
+        .style-hero .menu-style-box a {
+          font-size: 14px;
+          padding: .5rem 1rem; } }
+      @media only screen and (max-width: 340px) {
+        .style-hero .menu-style-box a {
+          font-size: 12px; } }
+    .style-hero .menu-style-box .btn {
+      background: #17ac10;
+      color: #fff;
+      border-bottom: 0;
+      border-radius: 25px;
+      margin: 0 .5em;
+      line-height: 1.3;
+      font-weight: 400;
+      padding: .5em 1.25em .65em; }
+      .style-hero .menu-style-box .btn:hover {
+        background: #177113; }
+  .style-hero .sms-call {
     background: transparent;
     padding: 1rem 2rem;
     border-bottom: 2px solid; }
     @media only screen and (max-width: 767px) {
-      .style-hero .menu-style-box .sms-call {
-        padding: .5rem 1rem; } }
-    .style-hero .menu-style-box .sms-call span {
+      .style-hero .sms-call {
+        padding: .5rem 1rem;
+        color: #fff;
+        border-bottom-color: #fff;
+        margin: 2em 0 2em; } }
+    .style-hero .sms-call span {
       transition: all .5s;
       font-size: 18px; }
       @media only screen and (max-width: 767px) {
-        .style-hero .menu-style-box .sms-call span {
+        .style-hero .sms-call span {
           font-size: 14px; } }
-    .style-hero .menu-style-box .sms-call img {
+    .style-hero .sms-call img {
       width: 34px;
       vertical-align: sub;
       display: inline-block;
       padding-left: 5px; }
       @media only screen and (max-width: 767px) {
-        .style-hero .menu-style-box .sms-call img {
+        .style-hero .sms-call img {
           width: 24px; } }
-    .style-hero .menu-style-box .sms-call.move .open-sms {
+    .style-hero .sms-call.move .open-sms {
       transform: translateX(100%); }
   .style-hero .city-box {
     position: absolute;
@@ -146,10 +164,10 @@ a {
     @media only screen and (max-width: 767px) {
       .style-hero .phone-box {
         text-align: center;
-        padding: 30px 30px 0;
         color: #fff; } }
     .style-hero .phone-box p {
-      font-size: 22px;
+      font-size: 18px;
+      padding-top: .25em;
       margin: 0; }
       @media only screen and (max-width: 767px) {
         .style-hero .phone-box p {
@@ -157,18 +175,31 @@ a {
       @media only screen and (max-width: 340px) {
         .style-hero .phone-box p {
           font-size: 14px; } }
-  .style-hero .hover-slider {
+  .style-hero .hero-white-box {
+    position: relative;
+    background: #fff;
+    max-width: 800px;
+    margin: auto;
+    z-index: 100;
+    height: 500px;
+    text-align: center;
+    top: 100px; }
+    @media only screen and (max-width: 767px) {
+      .style-hero .hero-white-box {
+        background: transparent;
+        top: 0; } }
+  .style-hero .hover-slider, .style-hero .original-slider-box {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     right: 0;
     top: 0;
     z-index: 1; }
     @media only screen and (max-width: 767px) {
-      .style-hero .hover-slider {
+      .style-hero .hover-slider, .style-hero .original-slider-box {
         width: 100%;
         z-index: -1; } }
-    .style-hero .hover-slider:after {
+    .style-hero .hover-slider:after, .style-hero .original-slider-box:after {
       content: '';
       position: absolute;
       width: 100%;
@@ -179,39 +210,77 @@ a {
       opacity: .6;
       display: none; }
       @media only screen and (max-width: 767px) {
-        .style-hero .hover-slider:after {
+        .style-hero .hover-slider:after, .style-hero .original-slider-box:after {
           display: block; } }
     @media only screen and (max-width: 767px) {
-      .style-hero .hover-slider {
+      .style-hero .hover-slider, .style-hero .original-slider-box {
         top: -10px; } }
-    .style-hero .hover-slider .hover-item {
+    .style-hero .hover-slider .bg, .style-hero .original-slider-box .bg {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .style-hero .hover-slider .hover-item, .style-hero .original-slider-box .hover-item {
       float: left;
       width: 10%;
       height: 100vh; }
-      .style-hero .hover-slider .hover-item .bg {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        opacity: 0;
-        left: 0;
-        top: 0;
-        z-index: -1; }
-        @media only screen and (max-width: 767px) {
-          .style-hero .hover-slider .hover-item .bg {
-            background-size: cover; } }
-      .style-hero .hover-slider .hover-item:first-child .bg {
+      .style-hero .hover-slider .hover-item:first-child .bg, .style-hero .original-slider-box .hover-item:first-child .bg {
         opacity: 1; }
       @media only screen and (max-width: 767px) {
-        .style-hero .hover-slider .hover-item:first-child {
+        .style-hero .hover-slider .hover-item:first-child, .style-hero .original-slider-box .hover-item:first-child {
           opacity: 0; } }
       @media only screen and (max-width: 767px) {
-        .style-hero .hover-slider .hover-item:nth-child(7) .bg {
+        .style-hero .hover-slider .hover-item:nth-child(7) .bg, .style-hero .original-slider-box .hover-item:nth-child(7) .bg {
           opacity: 1 !important; } }
-      .style-hero .hover-slider .hover-item:hover .bg {
+      .style-hero .hover-slider .hover-item:hover .bg, .style-hero .original-slider-box .hover-item:hover .bg {
         opacity: 1; }
+
+.original-slider .slick-arrow {
+  position: absolute;
+  background: transparent;
+  color: transparent;
+  border: 0;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  line-height: 1;
+  z-index: 100;
+  top: 0; }
+  @media only screen and (max-width: 767px) {
+    .original-slider .slick-arrow {
+      opacity: 0; } }
+  .original-slider .slick-arrow.slick-next {
+    left: 0; }
+    .original-slider .slick-arrow.slick-next:after {
+      content: "←";
+      display: block;
+      color: #000;
+      font-size: 50px;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: -100px;
+      bottom: 0;
+      left: 10%;
+      margin: auto; }
+  .original-slider .slick-arrow.slick-prev {
+    right: 0;
+    bottom: 0;
+    top: 0; }
+    .original-slider .slick-arrow.slick-prev:after {
+      content: "→";
+      display: block;
+      color: #000;
+      font-size: 50px;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: -100px;
+      bottom: 0;
+      right: 10%;
+      margin: auto; }
 
 .box-features {
   position: fixed;
@@ -1395,14 +1464,7 @@ button {
   color: #777;
   text-align: center;
   overflow: hidden;
-  border-bottom: 2px solid #000; }
-  .instruction .how-works-item {
-    width: 33%;
-    float: left;
-    padding: 50px;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-    height: 270px; }
+  margin-top: 50px; }
   .instruction img {
     height: 50px;
     display: block;
@@ -1410,8 +1472,9 @@ button {
   .instruction h4 {
     margin: 0;
     margin-bottom: 0.5em;
-    font-size: 24px;
-    color: #000; }
+    font-size: 32px;
+    color: #000;
+    font-weight: 300; }
   .instruction p {
     font-size: 18px;
     margin: 0; }
@@ -1420,7 +1483,6 @@ button {
     border: 0;
     padding: 0;
     line-height: 1.3;
-    border-bottom: 2px solid #b6eeff;
     box-shadow: none;
     font-size: 18px; }
   .instruction .typo-drop span {

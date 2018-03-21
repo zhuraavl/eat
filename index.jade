@@ -50,7 +50,7 @@ html(lang='ru')
               .item
                 p закажите доставку 2-х программ на один адрес - получите скидку!
     section.style-hero
-      .container-fluid
+      //.container-fluid
         .row
           .col-md-6.col-sm-12
             .logo-box
@@ -63,7 +63,14 @@ html(lang='ru')
           .col-md-4.col-xs-12.menu-style-box
             h4 
               b eater 
-              |— это проект для людей, которые хотят правильно, регулярно и разнообразно питаться в течение всего дня, не тратя при этом ни сил, ни времени.
+              |— ежедневная доставка здорового питания домой и в офис.
+              br
+              br
+              b 500+ 
+              | доставок ежедневно
+              br
+              b 3 года 
+              | на рынке
             a.btn(href="#update-menu") смотреть меню
             br
             a.btn(href="#link-to-form") наши цены
@@ -89,11 +96,69 @@ html(lang='ru')
               br
               |073 559 11 55
 
-        
-      
-        
-
-      .hover-slider
+      .hero-white-box  
+        .logo-box
+          a.logo(href='/')
+            img(src='img/logo_black.png', alt='')
+        .logo-box-white
+          a.logo(href='/')
+            img(src='img/logo_min-white.png', alt='')
+        .menu-style-box
+          h4 
+            |ежедневная доставка здорового питания домой и в офис.
+          h5
+            b 500+ 
+            | доставок ежедневно
+            br
+            b 3 года 
+            | на рынке
+          a.btn(href="#update-menu") меню
+          a.btn(href="#link-to-form") цены
+          a.btn(href="#link-to-form") закзать
+          
+          
+        .row
+          .col-md-4.col-sm-4.col-xs-12.phone-box
+            p
+              |068 551 19 55
+              br
+              |073 559 11 55
+          .col-md-4.col-sm-4.col-xs-12
+            button.sms-call
+              span.open-sms позвонить мне
+              img(src="img/style/call.png", alt="")
+          .col-md-4.col-sm-4.col-xs-12
+            p.social-box
+              a(href='https://www.instagram.com/eater.od')
+                i.fab.fa-instagram
+              a(href='https://www.instagram.com/eater.od')
+                i.fab.fa-viber
+              a(href='https://www.facebook.com/eater.od/?fref=ts')
+                i.fab.fa-facebook-f
+          
+      .original-slider-box
+        .original-slider
+          .item
+            .bg(style="background-image: url(img/style/a2.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/1.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/4.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/15.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/11.jpg")
+          .item
+            .bg(style="background-image: url(img/style/6.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/8.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/3.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/2.jpg)")
+          .item
+            .bg(style="background-image: url(img/style/a1.jpg)")
+      //.hover-slider
         .hover-item
           .bg(style="background-image: url(img/style/a2.jpg)")
         .hover-item
@@ -143,8 +208,36 @@ html(lang='ru')
     section.update-form#link-to-form
       .container
         
+        
+        .row.instruction
+          .col-md-12.text-center
+            h4 как это работает?
+          .col-md-4
+            img(src="img/icon/2.png", alt="")
+            button.scroll-to-form
+              |Оформи заказ
+              br
+              |на нашем сайте
+          .col-md-4
+            img(src="img/icon/3.png", alt="")
+            p
+              |С вами свяжется
+              br
+              | наш оператор
+          .col-md-4
+            img(src="img/icon/1.png", alt="")
+            p
+              |Жди доставку
+              br
+              |На следующий денб
+              span *
+            .hidden-text
+              |*Если заказ был принят до
+              strong 18:00
+        
         .row
           .col-md-12.text-center
+            br
             h2.title-style размер и цена
             br
         .row
@@ -181,7 +274,7 @@ html(lang='ru')
               input.radio(type='radio', name='calories', value='2400 кКал / Большое / 400грн')
               span.input-circle
                 p 2600 кКал
-                h2 X
+                h2 XL
                 h4
                   |440 
                   span грн/в день
@@ -336,8 +429,13 @@ html(lang='ru')
           .col-md-12
             .form-item-submit
               input#send_form(type='submit', name='submit', value='Отправить')
+              
+        
+      
+      
       
   
+                
                 
     
     #modal_send_ifcomplete
@@ -377,32 +475,18 @@ html(lang='ru')
               | подсчета каллорий.
             .row.all-text
               .col-md-4
-                h5.mini-title Контакты
                 p 068 551 19 55
                 p 073 559 11 55 
-                a(href='') eater.in.ua@gmail.com
-              .col-md-4
-                h5.mini-title Люди
-                .row
-                  .col-sm-4.col-xs-6
-                    .circle-img(style='background-image: url(img/cir.jpg)')
-                  .col-sm-8.col-xs-6.text-left
-                    h4
-                      | Ира 
-                      br
-                      | Летинская
-                .row
-                  .col-xs-12
-                    h6 Организатор, владелец
               .col-md-4.social
-                h5.mini-title Соц.сети
-                p Следите за нами в соцсетях!
                 a(href='https://www.instagram.com/eater.od')
                   i.fab.fa-instagram
                 a(href='https://www.facebook.com/eater.od/?fref=ts')
                   i.fab.fa-facebook-f
                 a(href='https://www.instagram.com/eater.od')
                   i.fab.fa-viber
+              .col-md-4
+                br
+                a(href='') eater.in.ua@gmail.com
                 
     script(src='js/scripts-min.js')
     

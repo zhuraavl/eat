@@ -942,6 +942,823 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/old\/.ftpquota": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/.ftpquota",
+		"oF": 0
+		},
+	"\/old\/control.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/control-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/css\/.sass-cache\/9483923d15401b998fa087646e33680bb97d6f10\/app.sassc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/css\/.sass-cache\/9483923d15401b998fa087646e33680bb97d6f10\/app.sassc",
+		"oF": 0
+		},
+	"\/old\/css\/.sass-cache\/9d2ed8f6b91afeeebdaeb632cc29788499dfb170\/app.sassc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/css\/.sass-cache\/9d2ed8f6b91afeeebdaeb632cc29788499dfb170\/app.sassc",
+		"oF": 0
+		},
+	"\/old\/css\/app.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/css\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/css\/app.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/old\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/old\/css\/bootstrap.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/css\/bootstrap.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/css\/bootstrap.min.css.map",
+		"oF": 0
+		},
+	"\/old\/css\/flaticon.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/css\/flaticon-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/css\/font-awesome.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/css\/font-awesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/css\/slick.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/css\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/edit\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/edit\/.htaccess",
+		"oF": 0
+		},
+	"\/old\/edit\/conf.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/edit\/conf.ini",
+		"oF": 0
+		},
+	"\/old\/edit\/lang.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/edit\/lang.ini",
+		"oF": 0
+		},
+	"\/old\/edit\/textolite.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/old\/edit\/textolite-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/old\/edit\/textolite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/edit\/textolite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/edit\/textolite.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/edit\/textolite.php",
+		"oF": 0
+		},
+	"\/old\/fonts\/_flaticon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/old\/fonts\/_flaticon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/old\/fonts\/Flaticon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/Flaticon.eot",
+		"oF": 0
+		},
+	"\/old\/fonts\/flaticon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/flaticon.html",
+		"oF": 0
+		},
+	"\/old\/fonts\/Flaticon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/Flaticon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/old\/fonts\/Flaticon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/Flaticon.ttf",
+		"oF": 0
+		},
+	"\/old\/fonts\/Flaticon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/Flaticon.woff",
+		"oF": 0
+		},
+	"\/old\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/old\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/old\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/old\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/old\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/old\/fonts\/FontAwesome.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/old\/img\/a-left.png": {
+		"ft": 32768,
+		"iS": 4627,
+		"oA": 0,
+		"oAP": "\/old\/img\/a-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/a-right.png": {
+		"ft": 32768,
+		"iS": 2680,
+		"oA": 0,
+		"oAP": "\/old\/img\/a-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/andrelogo.png": {
+		"ft": 32768,
+		"iS": 4984,
+		"oA": 0,
+		"oAP": "\/old\/img\/andrelogo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/cir.jpg": {
+		"ft": 16384,
+		"iS": 177594,
+		"oA": 0,
+		"oAP": "\/old\/img\/cir.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/covereater.png": {
+		"ft": 32768,
+		"iS": 285868,
+		"oA": 0,
+		"oAP": "\/old\/img\/covereater.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/day1\/1.jpg": {
+		"ft": 16384,
+		"iS": 144473,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/2.jpg": {
+		"ft": 16384,
+		"iS": 141424,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/3.jpg": {
+		"ft": 16384,
+		"iS": 164075,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/4.jpg": {
+		"ft": 16384,
+		"iS": 208149,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/5.jpg": {
+		"ft": 16384,
+		"iS": 153087,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/6.jpg": {
+		"ft": 16384,
+		"iS": 153087,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/7.jpg": {
+		"ft": 16384,
+		"iS": 97695,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/8.jpg": {
+		"ft": 16384,
+		"iS": 97695,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/day1\/9.jpg": {
+		"ft": 16384,
+		"iS": 198146,
+		"oA": 0,
+		"oAP": "\/old\/img\/day1\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/footer2.gif": {
+		"ft": 4194304,
+		"iS": 1030992,
+		"oA": 0,
+		"oAP": "\/old\/img\/footer2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/old\/img\/footer3.gif": {
+		"ft": 4194304,
+		"iS": 1022986,
+		"oA": 0,
+		"oAP": "\/old\/img\/footer3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/old\/img\/hero.jpg": {
+		"ft": 16384,
+		"iS": 121910,
+		"oA": 0,
+		"oAP": "\/old\/img\/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/hero2.jpg": {
+		"ft": 16384,
+		"iS": 583959,
+		"oA": 0,
+		"oAP": "\/old\/img\/hero2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/icon\/1.png": {
+		"ft": 32768,
+		"iS": 3110,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/2.png": {
+		"ft": 32768,
+		"iS": 2270,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/3.png": {
+		"ft": 32768,
+		"iS": 2183,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/1.png": {
+		"ft": 32768,
+		"iS": 10674,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/2.png": {
+		"ft": 32768,
+		"iS": 8165,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/3.png": {
+		"ft": 32768,
+		"iS": 5366,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/4.png": {
+		"ft": 32768,
+		"iS": 10249,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/5.png": {
+		"ft": 32768,
+		"iS": 7595,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/6.png": {
+		"ft": 32768,
+		"iS": 8278,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/7.png": {
+		"ft": 32768,
+		"iS": 6355,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/icon\/emoji\/8.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/old\/img\/icon\/emoji\/8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/insta\/1.jpg": {
+		"ft": 16384,
+		"iS": 117884,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/insta\/2.jpg": {
+		"ft": 16384,
+		"iS": 81755,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/insta\/3.jpg": {
+		"ft": 16384,
+		"iS": 165597,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/insta\/4.jpg": {
+		"ft": 16384,
+		"iS": 118413,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/insta\/5.jpg": {
+		"ft": 16384,
+		"iS": 176660,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/insta\/6.jpg": {
+		"ft": 16384,
+		"iS": 114309,
+		"oA": 0,
+		"oAP": "\/old\/img\/insta\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/old\/img\/logo_black.png": {
+		"ft": 32768,
+		"iS": 57254,
+		"oA": 0,
+		"oAP": "\/old\/img\/logo_black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/logo_white.png": {
+		"ft": 32768,
+		"iS": 36371,
+		"oA": 0,
+		"oAP": "\/old\/img\/logo_white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/start\/1.png": {
+		"ft": 32768,
+		"iS": 92904,
+		"oA": 0,
+		"oAP": "\/old\/img\/start\/1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/start\/2.png": {
+		"ft": 32768,
+		"iS": 110181,
+		"oA": 0,
+		"oAP": "\/old\/img\/start\/2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/img\/start\/3.png": {
+		"ft": 32768,
+		"iS": 99555,
+		"oA": 0,
+		"oAP": "\/old\/img\/start\/3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/old\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/index.php",
+		"oF": 0
+		},
+	"\/old\/js\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/circle-slider.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/circle-slider.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/classie.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/classie-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/min\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/modernizr.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/modernizr-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/scripts-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/scripts-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/selectFx.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/selectFx-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/js\/typed.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/old\/js\/typed.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/old\/phpmailer\/class.phpmailer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/class.phpmailer.php",
+		"oF": 0
+		},
+	"\/old\/phpmailer\/class.phpmaileroauth.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/class.phpmaileroauth.php",
+		"oF": 0
+		},
+	"\/old\/phpmailer\/class.phpmaileroauthgoogle.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/class.phpmaileroauthgoogle.php",
+		"oF": 0
+		},
+	"\/old\/phpmailer\/class.pop3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/class.pop3.php",
+		"oF": 0
+		},
+	"\/old\/phpmailer\/class.smtp.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/class.smtp.php",
+		"oF": 0
+		},
+	"\/old\/phpmailer\/PHPMailerAutoload.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/phpmailer\/PHPMailerAutoload.php",
+		"oF": 0
+		},
+	"\/old\/send.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/old\/send.php",
+		"oF": 0
+		},
 	"\/phpmailer\/class.phpmailer.php": {
 		"cB": 0,
 		"ft": 8192,

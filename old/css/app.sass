@@ -1,7 +1,22 @@
+@import url(font-awesome.css)
+
 @import url(flaticon.css)
+
 @import url(slick.css)
-@import url(datepicker.css)
+
 @import url(bootstrap.min.css)
+
+@import url('https://fonts.googleapis.com/css?family=Istok+Web')
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,cyrillic)
+
+.serif
+  font-family: "Lora", serif
+$serif: "Lora", serif
+.sans
+  font-family: 'Istok Web', sans-serif
+$sans: 'Istok Web', sans-serif
+
 
 
 
@@ -9,7 +24,7 @@
 
 
 //media
-$mobil: 340px
+$mobil: 480px
 $small: 767px
 $medium: 991px
 $desktop: 1170px
@@ -46,8 +61,7 @@ $large: 1920px
 //@include respond-to(medium) 
 
 
-body
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
 
 img
   max-width: 100%
@@ -55,507 +69,11 @@ img
 h1, h2, h3, h4, h5, h6, p
   line-height: 1.4
 
-  
-.title-style
-  font-size: 36px
-  font-weight: 300
-  margin-top: 30px
-  margin-bottom: 20px
-.subtitle-style  
-  font-size: 22px
-  font-weight: 300
-  margin-top: 50px
-  margin-bottom: 20px
-  
 a
   line-height: 1.4
   text-decoration: none !important
   color: #000
-  
-  
-  
-  
 
-.style-hero
-  min-height: 100vh
-  position: relative
-  padding: 0 100px
-  @include respond-to(small)
-    padding: 0 15px
-  .logo-box, .logo-box-white
-    padding-top: 50px
-    padding-bottom: 50px
-    @include respond-to(small)
-      padding-bottom: 35px
-      padding-top: 50px
-    .logo
-      max-width: 150px
-      display: block
-      margin: auto
-      
-  .logo-box
-    @include respond-to(small)
-      display: none
-  .logo-box-white
-    display: none
-    @include respond-to(small)
-      display: block
-      .logo
-        margin: auto
-      
-  .menu-style-box
-    margin-bottom: 35px
-    @include respond-to(small)
-      text-align: center
-      color: #fff
-    h4
-      font-size: 24px
-      font-weight: 300
-      width: 300px
-      margin: auto
-      margin-bottom: 1em
-      @include respond-to(small)
-        font-size: 24px
-        width: 100%
-      @include respond-to(mobil)
-        font-size: 16px
-    h5
-      font-size: 18px
-      font-weight: 300
-      width: 300px
-      margin: auto
-      margin-bottom: 1em
-    a
-      font-size: 18px
-      font-weight: 500
-      display: inline-block
-      margin: 0
-      border-radius: 0
-      text-align: left
-      padding: 1rem 2rem
-      cursor: pointer
-      border-bottom: 1px solid
-      @include respond-to(small)
-        font-size: 14px
-        padding: .5rem 1rem
-      @include respond-to(mobil)
-        font-size: 12px
-    .btn
-      background: #17ac10
-      color: #fff
-      border-bottom: 0
-      border-radius: 25px
-      margin: 0 .5em
-      line-height: 1.3
-      font-weight: 400
-      padding: .5em 1.25em .65em
-      &:hover
-        background: #177113
-  
-  .sms-call
-    background: transparent
-    padding: 1rem 2rem
-    border-bottom: 2px solid
-    @include respond-to(small)
-      padding: .5rem 1rem
-      color: #fff
-      border-bottom-color: #fff
-      margin: 2em 0 2em
-    span
-      transition: all .5s
-      font-size: 18px
-      @include respond-to(small)
-        font-size: 14px
-    img
-      width: 34px
-      vertical-align: sub
-      display: inline-block
-      padding-left: 5px
-      @include respond-to(small)
-        width: 24px
-    &.move
-      .open-sms
-        transform: translateX(100%)  
-      
-  .city-box
-    position: absolute
-    top: 50px
-    left: -75%
-    right: 0
-    margin: auto
-    width: 200px
-    p
-      font-size: 16px
-      margin: 0
-      padding: 15px 10px 15px
-      border-radius: 5px
-      border: 1px solid #ccc
-  .social-box
-    padding-top: .4em
-    a
-      font-size: 30px
-      margin-right: 1em
-      @include respond-to(small)
-        font-size: 24px
-        color: #fff
-        margin: 0 .5em
-  .phone-box
-    z-index: 10
-    @include respond-to(small)
-      text-align: center
-      color: #fff
-    p
-      font-size: 18px
-      padding-top: .25em
-      margin: 0
-      @include respond-to(small)
-        font-size: 18px
-      @include respond-to(mobil)
-        font-size: 14px
-
-      
-      
-      
-  .hero-white-box  
-    position: relative
-    background: #fff
-    max-width: 800px
-    margin: auto
-    z-index: 100
-    height: 500px
-    text-align: center
-    top: 100px
-    @include respond-to(small)
-      background: transparent
-      top: 0
-  
-    
-  .hover-slider, .original-slider-box
-    position: absolute
-    width: 100%
-    height: 100vh
-    right: 0
-    top: 0
-    z-index: 1
-    @include respond-to(small)
-      width: 100%
-      z-index: -1
-      
-    &:after
-      content: ''
-      position: absolute
-      width: 100%
-      height: 100%
-      left: 0
-      top: 0
-      background: #000
-      opacity: .6
-      display: none
-      @include respond-to(small)
-        display: block
-    @include respond-to(small)
-      top: -10px
-    .bg
-      position: relative
-      width: 100%
-      height: 100vh
-      background-size: cover
-      background-position: center
-      background-repeat: no-repeat
-    .hover-item
-      float: left
-      width: 10%
-      height: 100vh
-      &:first-child
-        .bg
-          opacity: 1
-        @include respond-to(small)
-          opacity: 0
-      &:nth-child(7)
-        .bg
-          @include respond-to(small)
-            opacity: 1 !important
-      &:hover
-        .bg
-          opacity: 1
-    
-.original-slider
-  .slick-arrow
-    position: absolute
-    background: transparent
-    color: transparent
-    border: 0
-    width: 50%
-    height: 100%
-    padding: 0
-    line-height: 1
-    z-index: 100
-    top: 0
-    @include respond-to(small)
-      opacity: 0
-    &.slick-next
-      left: 0
-      &:after
-        content: "←"
-        display: block
-        color: #000
-        font-size: 50px
-        position: absolute
-        width: 50px
-        height: 50px
-        top: -100px
-        bottom: 0
-        left: 10%
-        margin: auto
-    &.slick-prev
-      right: 0
-      bottom: 0
-      top: 0
-      &:after
-        content: "→"
-        display: block
-        color: #000
-        font-size: 50px
-        position: absolute
-        width: 50px
-        height: 50px
-        top: -100px
-        bottom: 0
-        right: 10%
-        margin: auto
-        
-        
-        
-.box-features
-  position: fixed
-  height: 75px
-  background: #000
-  bottom: 0
-  left: 0
-  width: 100%
-  z-index: 1000
-  color: #fff
-  .slider-features-style
-    text-align: center
-    .item
-      p
-        font-size: 18px
-        letter-spacing: 1px
-        font-weight: 300
-        padding: 25px 0
-        @include respond-to(small)
-          padding: 10px
-        @include respond-to(mobil)
-          font-size: 14px
-          padding: 12px
-        span.easy-button
-          display: inline-block
-          padding: 3px 5px
-          border: 1px solid #fff
-          font-size: 14px
-          text-transform: capitalize
-          font-weight: 300
-          margin-left: .5em
-            
-      &:first-child
-        display: block
-      
-        
-      
-
-      
-      
-      
-      
-  
-.price-check-style
-  display: block
-  width: 100%
-  height: 300px
-  text-align: center
-  position: relative
-  cursor: pointer
-  @include respond-to(small)
-    height: 100%
-    margin-bottom: 25px
-  
-  h2
-    font-size: 70px
-    font-weight: 400
-    color: #fff
-    margin: 25px 0 25px
-    -webkit-text-stroke: 1px #000
-  .radio
-    opacity: 0
-    position: absolute
-  p
-    font-size: 16px
-    font-weight: 300
-    margin-top: 15px
-  h4
-    font-size: 28px
-    font-weight: bold
-    letter-spacing: 1px
-    position: relative
-    line-height: 1
-    span
-      font-weight: 300
-      font-size: 16px
-      letter-spacing: 0
-      display: block
-  img
-    width: 100%
-    max-width: 50px
-    display: block
-    margin: 0
-  h3
-    font-size: 24px
-    font-weight: 300
-    line-height: 1.1
-    margin: 3px 0
-    span
-      font-size: 16px
-      font-weight: 300
-      display: block
-      margin-bottom: .5em
-  .input-circle
-    position: absolute
-    display: block
-    width: 100%
-    height: 300px
-    left: 0
-    z-index: -1
-    top: 0
-    border: 1px solid #ccc
-    transition: all .3s
-    overflow: hidden
-    padding-top: 25px
-    .row
-      padding: 10px 30px
-      &:first-child
-        padding-top: 20px
-        border-bottom: 1px solid #bebebe
-    @include respond-to(small)
-      position: relative
-      height: auto
-  input:checked + .input-circle
-    background: #fff
-    color: #17ac10
-    border: 1px solid #17ac10
-    h2
-      -webkit-text-stroke: 1px #17ac10
-  &.trial-day-style
-    color: #747474
-  &.smart-lunch-style
-    color: #747474
-  &.smart-lunch-style, &.trial-day-style
-    text-align: left
-    padding: 30px 50px
-    min-height: 235px
-    height: auto
-    .input-circle
-      padding-top: 0 !important
-    @include respond-to(small)
-      width: 100%
-      padding: 0
-    .input-circle
-      height: 100%
-    h3
-      font-weight: 500
-      @include respond-to(small)
-        font-size: 22px
-    p
-      font-size: 16px
-      text-align: left
-      line-height: 1.5
-      font-weight: 300
-      @include respond-to(small)
-        font-size: 12px
-      b
-        font-weight: 500
-  &:hover
-    .input-circle
-      background: #eee
-  .text-right
-    @include respond-to(small)
-      text-align: left !important
-  
-  
-.form-text-inputs
-  input
-    padding: 30px 50px
-    font-size: 24px
-    border: 1px solid #000
-    width: 100%
-    display: block
-    margin-bottom: 25px
-    font-weight: 300
-    color: #17ac10
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 .button
   display: block
   width: 200px
@@ -573,10 +91,13 @@ a
   outline: none
 
 body
+  font-family: 'Istok Web', sans-serif
   min-width: 320px
   color: #000
   transition: all 0.5s
-  
+  &.load
+    opacity: 0
+
 section
   max-width: 1600px
   margin: auto
@@ -1026,8 +547,50 @@ section
       
       
 
+.sms-call
+  position: fixed
+  width: 250px
+  height: 50px
+  background: #b6eeff
+  box-shadow: none
+  bottom: 0
+  right: 0
+  z-index: 999
+  border: 0
+  transition: all .5s
+  overflow: hidden
+  border-top-left-radius: 25px
+  span
+    padding: 1em
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    margin: auto
+    text-align: center
+    transition: all .5s
+    text-transform: uppercase
+    font-weight: 600
+    &.close-sms
+      transform: translateX(-100%)
+  i
+    font-size: 20px
+    float: left
+    margin-left: 0.5em
+  &.move
+    transform: rotate(-90deg) translate(100px, -200px)
+    border-top-right-radius: 25px
+    border-top-left-radius: 0
+    .open-sms
+      transform: translateX(100%)
+    .close-sms
+      transform: translateX(0)
 
-
+@media only screen and (max-width: 678px)
+  .sms-call.move
+    transform: rotate(-90deg) translate(100px, -170px)
 
 .modal-overlay
   width: 100%
@@ -1158,7 +721,6 @@ footer
   background: #111
   position: relative
   color: #fff
-  z-index: 1000
   &:after
     content: ""
     position: absolute
@@ -1167,9 +729,8 @@ footer
     left: 0
     top: 0
     opacity: .5
-    background-image: url(../img/giphy.gif)
+    background-image: url(../img/footer3.gif)
     background-size: cover
-    background-position: center
     z-index: 1
   .logo-in-footer
     display: block
@@ -1192,6 +753,9 @@ footer
         padding: 0 2em
         margin-bottom: 1em
         text-align: center
+  
+        
+        
         
   .all-text
     position: relative
@@ -1201,42 +765,26 @@ footer
     h4
       color: #fff
       margin: 0
-      font-size: 18px
-    p
-      font-size: 18px
-      margin: 5px 0
+      font-size: 16px
     h6
-      margin: 10px 0 0
-      font-size: 14px
-      color: #adadad
+      margin: 0
+      font-size: 12px
+      color: #999
     a
-      font-weight: bold
-      color: #fff
-      padding-top: 20px
-    .social
-      a
-        padding-top: 5px
-        display: inline-block
-        font-size: 32px
-        margin-right: 1em
-        @include respond-to(small)
-          margin-right: .5em
-          margin-left: .5em
-          font-size: 26px
+      display: block
+      color: #b6eeff
     .mini-title
       font-weight: 800
       color: #ddd
-      text-transform: lowercase
+      text-transform: uppercase
       letter-spacing: 1px
-      font-size: 18px
-      margin-bottom: 1em
       @include respond-to(small)
         margin-top: 2em
     .circle-img
       position: relative
       display: block
-      width: 50px
-      height: 50px
+      width: 55px
+      height: 55px
       border-radius: 100%
       background-size: cover
       background-position: center
@@ -1386,10 +934,9 @@ button
       
       
 .update-menu
+  padding-top: 100px
   position: relative
   overflow: hidden
-  z-index: 100
-  padding-top: 25px
   .big-title-menu
     height: 150px
     position: relative
@@ -1464,31 +1011,31 @@ button
   &:before
     content: ''
     position: absolute
-    font-size: 24px
-    display: block
-    width: auto
-    right: 0px
-    font-weight: 600
-    background: #000
-    width: 50%
-    top: 56px
-    padding: 5px 0 12px
     text-align: center
-.active-day
-  border: 1px solid #17ac10 !important
-  color: #17ac10 !important
-  &:before
-    background: #17ac10
+    padding: 1.5em .3em
+    text-transform: uppercase
+    font-size: 14px
+    font-weight: 800
+    letter-spacing: 2px
     color: #fff
+    
+    display: block
+    left: 30px
+    width: 200px
+    top: -30px
+.active-day
+  &:before
     content: 'сегодня'
+    background: #12ff00
+.prev-day
+  &:before
+    content: 'вчера'
+    background: #ff7d7d
     
 .next-day
-  border: 1px solid #dea200 !important
-  color: #e39a24
   &:before
-    background: #e39a24
-    color: #fff
     content: 'завтра'
+    background: #41dbff
 
           
           
@@ -1496,61 +1043,40 @@ button
       
 .slider-ten-days
   .menu-item
-    width: 85%
+    width: 90%
     margin: auto
+    background: #f1f1f1
     position: relative
-    border: 1px solid #000
-    background: #fff  
-    @include respond-to(small)
-      width: 100%
+    margin-top: 50px
     .menu-names
+      padding: 30px
       height: 500px
-      padding: 0 50px
-      @include respond-to(small)
-        height: auto
-        padding: 0 15px
       h4
-        font-size: 16px
+        font-size: 12px
+        letter-spacing: 1px
+        text-transform: uppercase
         font-weight: 600
-        margin-top: 25px
-        margin-bottom: 10px
-        text-transform: lowercase
+        color: #999
+        &:before
+          content: ''
+          display: inline-block
+          width: 50px
+          height: 1px
+          background: #999
+          vertical-align: super
+          margin-right: 1em
       p
         font-weight: 300
+        font-family: $serif
         font-size: 16px
-        line-height: 1.2
-    .menu-name-item
-      margin-bottom: 20px
-      
     .menu-info
-      position: relative
+      background: rgb(226, 226, 226)
+      padding: 50px 0px 10px 30px
       h2
-        font-size: 50px
-        font-weight: bold
-        line-height: 1
-        margin-top: -10px
-        width: 50%
-        border-bottom: 1px solid
-        border-right: 1px solid
-        padding: 20px 0 10px
-        text-align: center
-        span
-          display: block
-          font-size: 16px
-          font-weight: 500
-          margin-bottom: 10px
-          margin-top: 10px
-            
-      span.date
-        position: absolute
-        top: 25px
-        width: 50%
-        right: 0
-        text-align: center
-        font-size: 18px
-        font-weight: bold
-        border-bottom: 1px solid
-        padding-bottom: 15px
+        margin: 0
+        font-size: 40px
+        color: rgba(0, 0, 0, 0.4)
+        font-family: $serif
   .slick-arrow
     position: absolute
     top: 50%
@@ -1568,7 +1094,7 @@ button
       background-image: url(../img/a-left.png)
       background-size: cover
         
-//.calendar-rotator
+.calendar-rotator
   position: absolute
   top: 100px
   width: 100%
@@ -1631,36 +1157,15 @@ button
     transform: rotateZ(0deg)
   
   
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 #first
   opacity: 0
   visibility: hidden
-  position: absolute
   
   
 .instruction
+  margin-top: 50px
   color: #777
   text-align: center
-  overflow: hidden
-  margin-top: 50px
-    
   img
     height: 50px
     display: block
@@ -1668,9 +1173,8 @@ button
   h4
     margin: 0
     margin-bottom: 0.5em
-    font-size: 32px
+    font-size: 24px
     color: #000
-    font-weight: 300
   p
     font-size: 18px
     margin: 0
@@ -1679,6 +1183,7 @@ button
     border: 0
     padding: 0
     line-height: 1.3
+    border-bottom: 2px solid #b6eeff
     box-shadow: none
     font-size: 18px
   
@@ -1690,21 +1195,16 @@ button
     color: #999
     
     
-.single-menu-list
-  border-bottom: 2px solid #000
-  overflow: hidden
+    
 .single-item
-  border-right: 1px solid #000
-  border-left: 1px solid #000
-  padding: 50px
-  width: 50%
-  float: left
+  padding: 30px
+  margin-top: 60px
   &.trial
     background: #fff
     h3
-      
+      background: #eee
   &.smart
-    
+    background: #fdd5dd
   .text-center
     padding-top: 10px
   label
@@ -1718,11 +1218,11 @@ button
     font-size: 14px
     font-weight: 600
     letter-spacing: 1px
-    background: #eee
     text-transform: uppercase
     width: 200px
     padding: .75em .5em .5em
     text-align: center
+    background: #fff
     border-radius: 50px
     margin: auto
   p
@@ -1735,8 +1235,33 @@ button
     
 .update-form
   position: relative
-  padding: 50px 0 100px
-  
+  padding: 150px 0 100px
+  .mega-title
+    position: absolute
+    top: 50px
+    font-family: $serif
+    font-size: 13vw
+    font-weight: bold
+    color: rgba(123, 123, 123, 0.1)
+    text-align: center
+    width: 100%
+  p.title-mini-text
+    font-size: 18px
+    color: #999
+    padding-top: 50px
+  .form-text-inputs
+    padding: 75px 0 50px
+    input
+      display: block
+      width: 100%
+      background: #eee
+      border: 0
+      padding: 40px 20px
+      font-size: 18px
+      &.has-error
+        border-bottom: 5px solid red
+      @include respond-to(small)
+        margin-bottom: 20px
         
   .form-steps
     position: relative
@@ -1744,6 +1269,7 @@ button
     overflow: hidden
     margin-top: 50px
     border-radius: 100px
+    
     .form-step-item
       position: absolute
       width: 100%
@@ -1852,32 +1378,22 @@ button
   ul.line-item
     position: relative
     list-style: none
-    width: 100%
+    width: 96%
     display: table
     padding: 0
     margin: auto
     pointer-events: none
     z-index: 1
-    top: -50px
+    top: -40px
     li
       display: table-cell
-      border: 1px solid blue
+      border: 1px solid #eee
       border-top: 0
       border-bottom: 0
-      height: 50px
+      height: 60px
   input#time-range-slider
     display: block
     margin-top: 20px
-  .middle-line
-    position: absolute
-    width: 100%
-    height: 2px
-    background: #000
-    top: 45px
-    left: 0
-    right: 0
-    width: 97.6%
-    margin: auto
   input#time-range-slider
     -webkit-appearance: none
     width: 100%
@@ -1888,10 +1404,11 @@ button
      
     &::-webkit-slider-runnable-track
       width: 100%
-      height: 50px
+      height: 20px
       cursor: pointer
       animate: 0.2s
-      background: transparent
+      background: #eee
+      border-radius: 25px
       box-shadow: none
       border: 0
     &::-webkit-slider-thumb
@@ -1899,12 +1416,15 @@ button
       position: relative
       border: 1px solid #2497e3
       height: 50px
-      width: 5px
+      width: 50px
+      border-radius: 100%
       background: #006dd9
       cursor: pointer
       -webkit-appearance: none
-      margin-top: 0px
-      margin-left: -1px
+      margin-top: -15px
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
+      -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
     &::-moz-range-track
       width: 100%
       height: 20px
@@ -1960,12 +1480,15 @@ button
     
   .time-range-slider-nav
     position: relative
-    height: 30px
+    height: 50px
     list-style: none
     width: 200px
     overflow: hidden
+    margin: auto
+    text-align: center
     li
       font-size: 24px
+      font-family: $serif
       position: absolute
       width: 100%
       top: 0px
@@ -1981,25 +1504,17 @@ button
         opacity: 1
   .form-item-submit  
     input[type=submit]
-      max-width: 600px
+      max-width: 400px
       width: 100%
-      font-size: 32px
+      display: block
+      font-size: 20px
       padding: 1em
-      background: #17ac10
+      background: #b6eeff
       border: 0
-      color: #fff
-      border-radius: 100px
+      border-radius: 50px
       letter-spacing: 1px
       display: block
       margin: 25px auto
-      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
-      -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
-      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
-      &:hover
-        background: #198314
-        -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
-        -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
-        box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
       
 
 .toggle-vegan
@@ -2013,6 +1528,7 @@ button
   .button-toggle-wrap
     .my-text
       font-size: 16px
+      font-family: $serif
     .my-pic
       height: 40px
       img
@@ -2062,6 +1578,7 @@ button
       text-align: center
     p
       font-size: 18px
+      font-family: $serif
       
   .price-item
     position: relative
@@ -2101,6 +1618,7 @@ button
         transition: all .3s ease-in-out
       p
         font-size: 14px
+        font-family: $sans
         font-weight: 300
         text-align: center
         position: relative
@@ -2117,6 +1635,7 @@ button
         display: block
         font-size: 14px
         color: #888
+        font-family: $sans
   
         
     &.smart-lunch, &.trial-day
@@ -2128,9 +1647,11 @@ button
       h5
         font-size: 16px
         text-align: left
+        font-family: $serif
         margin: 0
         span
           display: block
+          font-family: $sans
           font-size: 12px
           color: #999
       h4
@@ -2139,7 +1660,6 @@ button
         margin: 0
         span
           display: inline-block
-      
     &.smart-lunch 
       background: #ffd6d6
       input:checked + span
@@ -2159,81 +1679,80 @@ button
       margin: auto
       text-align: center
       
-
       
-      
-// comment and days row      
-.comment-box
-  textarea
-    width: 100%
-    display: block
-    height: auto
+.bottom-form-inputs
+  margin-top: 50px
+  padding-top: 50px
+  border-top: 1px solid #eee
+  h6
     text-align: center
-    border: 0
-    background: transparent
-    font-size: 32px
-    margin-top: 45px
-    font-weight: 300
-  #call-me
-    padding: 20px
-    text-align: center
-    width: 100%
-    cursor: pointer
-    input
-      display: inline-block
-      vertical-align: top 
-      margin-right: 10px
-      font-size: 25px
-    span
-      display: inline-block
-      font-weight: 300
-      font-size: 18px
-      color: #000      
-
-  
-.inputs-boxes
-  position: relative
-  @include respond-to(small)
-    margin-bottom: 20px
-  label
-    width: 100%
-    display: block
-    font-size: 16px
-    padding: 20px 50px
-    font-weight: 300
-    cursor: pointer
-    border: 1px solid #000
-    span
-      font-size: 32px
+    font-size: 12px
+    letter-spacing: 1px
+    text-transform: uppercase
+    margin: 0
+  .text-info
+    margin-top: 30px
+    max-width: 300px
+    p
+      color: #999
+  .comment-box
+    textarea
+      width: 100%
       display: block
-      font-weight: 500
-    &:hover
+      resize: none
+      height: 150px
+      padding: 20px
+      border: 0
       background: #eee
-  input
-    position: absolute
-    opacity: 0
-    width: 100%
-    height: 100%
-    cursor: pointer
-    top: 0
-    left: 0
-    &:checked + label
-      border: 1px solid #17ac10
-      color: #17ac10
-      background: #fff
-    
-        
-  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      font-size: 16px
+    #call-me
+      padding: 20px
+      input
+        display: inline-block
+        width: auto
+        vertical-align: top 
+        margin-right: 10px
+        font-size: 25px
+      span
+        display: inline-block
+        font-weight: 300
+        width: 85%
+        font-size: 14px
+        color: #999
+  .how-days-inputs
+    position: relative
+    overflow: hidden
+    padding-top: 35px
+    .inputs-boxes
+      float: left
+      width: 25%
+      position: relative
+      label
+        display: block
+        font-size: 14px
+        text-align: center
+        background: #eee
+        padding: 20px 0
+        font-weight: 100
+        cursor: pointer
+        border-left: 1px solid #fff
+        border-right: 1px solid #fff
+        span
+          font-family: $serif
+          font-size: 24px
+          display: block
+      input
+        position: absolute
+        opacity: 0
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        &:checked + label
+          background: #b1f498
+          -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
+          -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
+          box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2)
   .range-how-days-slider
     padding-top: 50px
     position: relative
@@ -2264,6 +1783,7 @@ button
           text-align: center
           display: block
           padding-top: 22px
+          font-family: $serif
           font-size: 28px
           color: #000
     #days-range-slider
@@ -2353,52 +1873,45 @@ button
       width: 50px
       margin: auto
       display: block
-      
-      
-      
-
-.form-select-box
-  border: 1px solid #000
-  select
-    color: #000
-    cursor: pointer
-    font-size: 32px
-    width: 100%
-    padding: 30px 50px
-    border: 0
-    -webkit-appearance: none
-    -moz-appearance: none
-    appearance: none
-    background: transparent
-    font-weight: 300
-    option:disabled
-      color: #999
-    &:focus
-      background: #ffffff
-.data-style
-  position: relative
-  @include respond-to(small)
-    margin-top: 30px
-  .inputs-boxes
-    label
-      height: 107px
-      font-size: 18px
-      width: 100%
-      padding: 40px 20px
-      text-align: center
-  img
-    position: absolute
-    top: 40px
-    width: 30px
-    pointer-events: none
-  .data-pick
-    height: 107px
-    border: 0
-    text-align: center
-    font-size: 24px
-    
-    
-    
+    .form-select-box
+      width: 100px
+      margin: auto
+      span
+        margin-top: 15px
+        display: block
+        position: relative
+        &:before
+          content: ""
+          position: absolute
+        &:after
+          content: '↓'
+          position: absolute
+          right: 20px
+          height: 27px
+          top: 0
+          bottom: 0
+          margin: auto
+          display: block
+          font-size: 20px
+          pointer-events: none
+      select
+        color: #000
+        cursor: pointer
+        text-align: center
+        font-size: 16px
+        padding: 1em
+        width: 100%
+        border-radius: 0
+        border: 0
+        padding-right: 2em
+        -webkit-appearance: none
+        -moz-appearance: none
+        appearance: none
+        background: #fff
+        option:disabled
+          color: #999
+        &:focus
+          background: #ffffff
 #send_form
   transition: all .5s ease-in-out
   .loading

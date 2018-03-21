@@ -14,10 +14,10 @@ jQuery(document).ready(function ($) {
 
   
   $("input#tomorrow").click(function () {
-    $('[data-toggle="datepicker"]').datepicker('setDate', +1);
+    $('[data-toggle="datepicker"]').datepicker('setDate', new Date((new Date()).valueOf() + 1000*3600*24));
   });
   $("input#ponedelnik").click(function () {
-    $('[data-toggle="datepicker"]').datepicker('setDate', '+' +(8 - new Date(),  getDay()));
+    $('[data-toggle="datepicker"]').datepicker('setDate', (new Date()).valueOf() + (1 + 7 - (new Date()).valueOf() % 7));
   });
   
   
@@ -235,9 +235,7 @@ jQuery(document).ready(function ($) {
               "visibility": "hidden"
             });
           }, 3500);
-          $('html, body').animate({
-            scrollTop: $(".hero").offset().top
-          }, 2000);
+          
 
           // reset input after send form
           $('input[type=checkbox]').prop("checked", false);

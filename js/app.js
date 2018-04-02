@@ -13,12 +13,11 @@ jQuery(document).ready(function ($) {
   
 
   
-  $("input#tomorrow").click(function () {
+  $("button#tomorrow").click(function () {
     $('[data-toggle="datepicker"]').datepicker('setDate', new Date((new Date()).valueOf() + 1000*3600*24));
   });
-  $("input#ponedelnik").click(function () {
-    $('[data-toggle="datepicker"]').datepicker('setDate', (new Date()).valueOf() + (1 + 7 - (new Date()).valueOf() % 7));
-  });
+  
+  
   
   
   $('.slider-features-style').slick({
@@ -197,11 +196,36 @@ jQuery(document).ready(function ($) {
     var calories = $('input[name=calories]:checked');
     var callme = $('input[name=callme]');
     var time = $('select[name=time] option:selected');
+    var startdate = $('input[name=startdate]');
     var days = $('input[name=days]:checked');
     
+    if (($(username).val() == '' || $(username).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
+    }
+    if (($(phone).val() == '' || $(phone).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
+    }
+    if (($(dom).val() == '' || $(dom).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
+    }
+    if (($(ulitsa).val() == '' || $(ulitsa).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
+    }
     if (($(calories).val() == '' || $(calories).length == 0) && !$(addition).hasClass('active')) {
       err = true;
-      $('#chois-ration').addClass('has-error');
+      $('#send_form').addClass('has-error');
+    }
+    if (($(time).val() == '' || $(time).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
+    }
+    if (($(startdate).val() == '' || $(startdate).length == 0) && !$(addition).hasClass('active')) {
+      err = true;
+      $('#send_form').addClass('has-error');
     }
 
     data.append("action", "send_form");
@@ -216,6 +240,7 @@ jQuery(document).ready(function ($) {
     data.append('calories', $(calories).val());
     data.append('callme', $(callme).is(':checked'));
     data.append('time', $(time).text());
+    data.append('startdate', $(startdate).val());
     data.append('days', $(days).val());
     
     if (err == false) {

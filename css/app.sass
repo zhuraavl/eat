@@ -203,15 +203,16 @@ a
     z-index: 10
     @include respond-to(small)
       text-align: center
-      color: #fff
     p
       font-size: 18px
       padding-top: .25em
       margin: 0
       @include respond-to(small)
         font-size: 18px
+        color: #fff !important
       @include respond-to(mobil)
         font-size: 14px
+        color: #fff !important
 
       
       
@@ -226,9 +227,9 @@ a
     text-align: center
     top: 100px
     @include respond-to(small)
-      background: transparent
+      background: none !important
       top: 0
-  
+      height: auto
     
   .hover-slider, .original-slider-box
     position: absolute
@@ -240,7 +241,7 @@ a
     @include respond-to(small)
       width: 100%
       z-index: -1
-      
+      min-height: 550px
     &:after
       content: ''
       position: absolute
@@ -262,6 +263,8 @@ a
       background-size: cover
       background-position: center
       background-repeat: no-repeat
+      @include respond-to(small)
+        min-height: 550px
     .hover-item
       float: left
       width: 10%
@@ -392,12 +395,15 @@ a
     font-size: 16px
     font-weight: 300
     margin-top: 15px
+    
   h4
     font-size: 28px
     font-weight: bold
     letter-spacing: 1px
     position: relative
     line-height: 1
+    @include respond-to(small)
+      padding-bottom: 25px
     span
       font-weight: 300
       font-size: 16px
@@ -1054,38 +1060,48 @@ section
   .modal-box
     position: absolute
     bottom: 0
+    top: 0
+    margin: auto
     right: -300px
     padding: 2em
     background: #fff
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35)
     -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35)
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35)
-    width: 300px
-    height: 400px
+    max-width: 500px
+    height: 100vh
     transition: all .5s
     z-index: 20
+    text-align: center
+    h4
+      font-weight: 300
+      font-size: 18px
+      padding: 100px 50px
+      @include respond-to(small)
+        padding: 30px 0
+        
   .form-item-modal
     position: relative
     margin-top: 2em
     overflow: auto
     label
-      position: absolute
-      top: 15px
+      position: relative
       left: 0
-      color: #adadad
+      color: #000
+      clear: both
+      font-weight: 300
+      font-size: 18px
     input
-      width: 92%
-      float: right
-      background: #ddd
-      border: 0
-      padding: .7em
-      font-size: 16px
+      width: 80%
+      background: #fff
+      border: 1px solid #000
+      margin: auto
+      display: block
+      padding: 1em
+      font-size: 18px
       outline: none
-      padding-left: 60px
       transition: all .5s
-      border-bottom: 0.5em solid #f1f1f1
-      &:focus
-        border-bottom: 0.5em solid #b6eeff
+      
   .call-me
     width: 92%
     height: 50px
@@ -1116,7 +1132,7 @@ section
   height: 100%
   background: rgba(0, 0, 0, 0.8)
   opacity: 0
-  z-index: 123
+  z-index: 1235
   visibility: hidden
   &.true
     opacity: 1
@@ -1287,6 +1303,7 @@ footer
   margin-bottom: 25px
   margin-top: 50px
   text-align: center
+  
   .pricing
     span
       width: 50px
@@ -1390,6 +1407,8 @@ button
   overflow: hidden
   z-index: 100
   padding-top: 25px
+  width: 100%
+  min-height: 600px
   .big-title-menu
     height: 150px
     position: relative
@@ -1563,10 +1582,14 @@ button
       right: 15px
       background-image: url(../img/a-right.png)
       background-size: cover
+      @include respond-to(small)
+        right: -15px
     &.slick-prev
       left: 15px
       background-image: url(../img/a-left.png)
       background-size: cover
+      @include respond-to(small)
+        left: -15px
         
 //.calendar-rotator
   position: absolute
@@ -1592,8 +1615,8 @@ button
       top: 200px
       width: 300px
       height: 300px
-      @include respond-to(small)
-        top: 150px
+    @include respond-to(small)
+      top: 150px
   &.rotator-days
     width: 300px
     height: 300px
@@ -1660,6 +1683,8 @@ button
   text-align: center
   overflow: hidden
   margin-top: 50px
+  @include respond-to(small)
+    margin-top: 0
     
   img
     height: 50px
@@ -2000,6 +2025,8 @@ button
         -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
         -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
         box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2)
+      &.has-error
+        background: red
       
 
 .toggle-vegan
@@ -2379,23 +2406,36 @@ button
   position: relative
   @include respond-to(small)
     margin-top: 30px
-  .inputs-boxes
-    label
-      height: 107px
-      font-size: 18px
-      width: 100%
-      padding: 40px 20px
-      text-align: center
+  
+  button
+    height: 107px
+    font-size: 18px
+    width: 100%
+    padding: 40px 20px
+    text-align: center
+    background: transparent
+    border: 1px solid
+    font-weight: 300
   img
     position: absolute
     top: 40px
     width: 30px
+    left: 50px
     pointer-events: none
+    @include respond-to(small)
+      left: 25px
+      top: 45px
+      width: 20px
   .data-pick
     height: 107px
     border: 0
     text-align: center
     font-size: 24px
+    width: 100%
+    border: 1px solid #000
+    color: #17ac10
+    &:focus
+      border: 1px solid #17ac10
     
     
     

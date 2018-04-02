@@ -318,6 +318,136 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/hero\/1.jpg": {
+		"ft": 16384,
+		"iS": 1515901,
+		"oA": 0,
+		"oAP": "\/img\/hero\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/10.jpg": {
+		"ft": 16384,
+		"iS": 1481713,
+		"oA": 0,
+		"oAP": "\/img\/hero\/10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/11.jpg": {
+		"ft": 16384,
+		"iS": 1739240,
+		"oA": 0,
+		"oAP": "\/img\/hero\/11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/12.jpg": {
+		"ft": 16384,
+		"iS": 1545294,
+		"oA": 0,
+		"oAP": "\/img\/hero\/12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/13.jpg": {
+		"ft": 16384,
+		"iS": 1497869,
+		"oA": 0,
+		"oAP": "\/img\/hero\/13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero\/2.jpg": {
+		"ft": 16384,
+		"iS": 1381640,
+		"oA": 0,
+		"oAP": "\/img\/hero\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/3.jpg": {
+		"ft": 16384,
+		"iS": 1191784,
+		"oA": 0,
+		"oAP": "\/img\/hero\/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero\/4.jpg": {
+		"ft": 16384,
+		"iS": 1342168,
+		"oA": 0,
+		"oAP": "\/img\/hero\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/5.jpg": {
+		"ft": 16384,
+		"iS": 1524850,
+		"oA": 0,
+		"oAP": "\/img\/hero\/5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero\/6.jpg": {
+		"ft": 16384,
+		"iS": 1496721,
+		"oA": 0,
+		"oAP": "\/img\/hero\/6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero\/7.jpg": {
+		"ft": 16384,
+		"iS": 1620191,
+		"oA": 0,
+		"oAP": "\/img\/hero\/7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero\/8.jpg": {
+		"ft": 16384,
+		"iS": 1716089,
+		"oA": 0,
+		"oAP": "\/img\/hero\/8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero\/9.jpg": {
+		"ft": 16384,
+		"iS": 2056236,
+		"oA": 0,
+		"oAP": "\/img\/hero\/9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/icon\/1.png": {
 		"ft": 32768,
 		"iS": 3110,

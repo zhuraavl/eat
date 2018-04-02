@@ -17,6 +17,7 @@ if (isset($_POST["action"]) && $_POST["action"] == 'send_form') {
 		$calories = ( isset($_POST["calories"]) ? $_POST["calories"] : ' — ' );
     $callme = ( isset($_POST["callme"]) ? $_POST["callme"] : ' — ' );
     $time = ( isset($_POST["time"]) ? $_POST["time"] : ' — ' );
+    $startdate = ( isset($_POST["startdate"]) ? $_POST["startdate"] : ' — ' );
     $days = ( isset($_POST["days"]) ? $_POST["days"] : ' — ' );
    
 
@@ -31,6 +32,9 @@ if (isset($_POST["action"]) && $_POST["action"] == 'send_form') {
       ."<br/>"."Квартира: ".$kvartira
       ."<br/>"."Комментарий: ".$comment
 			."<br/>"."Меню: ".$calories
+			."<br/>"."Время: ".$time
+			."<br/>"."Число: ".$startdate
+			."<br/>"."Колличество дней: ".$days
 			."<br/>"."Звонить? ".$callme
 			."<br/>"."<hr><br/> Запрос отправлен: ".date("d M Y, H:i:s")
 			."<br/>"."IP Отправителя: ".$_SERVER['REMOTE_ADDR']

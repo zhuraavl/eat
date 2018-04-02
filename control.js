@@ -74,25 +74,20 @@ jQuery(document).ready(function($) {
     cssEase: 'ease-in-out',
     arrows: true,
     focusOnSelect: true,
-    responsive: [{
+    responsive: [
+      {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 2,
-        centerPadding: '50px'
+        slidesToShow: 2
       }
-    }, {
-      breakpoint: 600,
+    },
+      {
+      breakpoint: 800,
       settings: {
-        slidesToShow: 1,
-        centerPadding: '50px'
+        slidesToShow: 1
       }
-    }, {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        centerPadding: '0px'
-      }
-    }]
+    }
+    ]
   });
   $('.slider-ten-days').slick('slickGoTo', current_day_menu - 1);
 

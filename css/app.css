@@ -163,18 +163,19 @@ a {
     z-index: 10; }
     @media only screen and (max-width: 767px) {
       .style-hero .phone-box {
-        text-align: center;
-        color: #fff; } }
+        text-align: center; } }
     .style-hero .phone-box p {
       font-size: 18px;
       padding-top: .25em;
       margin: 0; }
       @media only screen and (max-width: 767px) {
         .style-hero .phone-box p {
-          font-size: 18px; } }
+          font-size: 18px;
+          color: #fff !important; } }
       @media only screen and (max-width: 340px) {
         .style-hero .phone-box p {
-          font-size: 14px; } }
+          font-size: 14px;
+          color: #fff !important; } }
   .style-hero .hero-white-box {
     position: relative;
     background: #fff;
@@ -186,8 +187,9 @@ a {
     top: 100px; }
     @media only screen and (max-width: 767px) {
       .style-hero .hero-white-box {
-        background: transparent;
-        top: 0; } }
+        background: none !important;
+        top: 0;
+        height: auto; } }
   .style-hero .hover-slider, .style-hero .original-slider-box {
     position: absolute;
     width: 100%;
@@ -198,7 +200,8 @@ a {
     @media only screen and (max-width: 767px) {
       .style-hero .hover-slider, .style-hero .original-slider-box {
         width: 100%;
-        z-index: -1; } }
+        z-index: -1;
+        min-height: 550px; } }
     .style-hero .hover-slider:after, .style-hero .original-slider-box:after {
       content: '';
       position: absolute;
@@ -222,6 +225,9 @@ a {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat; }
+      @media only screen and (max-width: 767px) {
+        .style-hero .hover-slider .bg, .style-hero .original-slider-box .bg {
+          min-height: 550px; } }
     .style-hero .hover-slider .hover-item, .style-hero .original-slider-box .hover-item {
       float: left;
       width: 10%;
@@ -346,6 +352,9 @@ a {
     letter-spacing: 1px;
     position: relative;
     line-height: 1; }
+    @media only screen and (max-width: 767px) {
+      .price-check-style h4 {
+        padding-bottom: 25px; } }
     .price-check-style h4 span {
       font-weight: 300;
       font-size: 16px;
@@ -922,38 +931,47 @@ section {
   .modal-overlay .modal-box {
     position: absolute;
     bottom: 0;
+    top: 0;
+    margin: auto;
     right: -300px;
     padding: 2em;
     background: #fff;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
-    width: 300px;
-    height: 400px;
+    max-width: 500px;
+    height: 100vh;
     transition: all .5s;
-    z-index: 20; }
+    z-index: 20;
+    text-align: center; }
+    .modal-overlay .modal-box h4 {
+      font-weight: 300;
+      font-size: 18px;
+      padding: 100px 50px; }
+      @media only screen and (max-width: 767px) {
+        .modal-overlay .modal-box h4 {
+          padding: 30px 0; } }
   .modal-overlay .form-item-modal {
     position: relative;
     margin-top: 2em;
     overflow: auto; }
     .modal-overlay .form-item-modal label {
-      position: absolute;
-      top: 15px;
+      position: relative;
       left: 0;
-      color: #adadad; }
+      color: #000;
+      clear: both;
+      font-weight: 300;
+      font-size: 18px; }
     .modal-overlay .form-item-modal input {
-      width: 92%;
-      float: right;
-      background: #ddd;
-      border: 0;
-      padding: .7em;
-      font-size: 16px;
+      width: 80%;
+      background: #fff;
+      border: 1px solid #000;
+      margin: auto;
+      display: block;
+      padding: 1em;
+      font-size: 18px;
       outline: none;
-      padding-left: 60px;
-      transition: all .5s;
-      border-bottom: 0.5em solid #f1f1f1; }
-      .modal-overlay .form-item-modal input:focus {
-        border-bottom: 0.5em solid #b6eeff; }
+      transition: all .5s; }
   .modal-overlay .call-me {
     width: 92%;
     height: 50px;
@@ -984,7 +1002,7 @@ section {
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
-  z-index: 123;
+  z-index: 1235;
   visibility: hidden; }
   #modal_send_ifcomplete.true {
     opacity: 1;
@@ -1223,7 +1241,9 @@ button {
   position: relative;
   overflow: hidden;
   z-index: 100;
-  padding-top: 25px; }
+  padding-top: 25px;
+  width: 100%;
+  min-height: 600px; }
   .update-menu .big-title-menu {
     height: 150px;
     position: relative;
@@ -1389,10 +1409,16 @@ button {
     right: 15px;
     background-image: url(../img/a-right.png);
     background-size: cover; }
+    @media only screen and (max-width: 767px) {
+      .slider-ten-days .slick-arrow.slick-next {
+        right: -15px; } }
   .slider-ten-days .slick-arrow.slick-prev {
     left: 15px;
     background-image: url(../img/a-left.png);
     background-size: cover; }
+    @media only screen and (max-width: 767px) {
+      .slider-ten-days .slick-arrow.slick-prev {
+        left: -15px; } }
 
 .emblem {
   position: absolute;
@@ -1413,9 +1439,9 @@ button {
         top: 200px;
         width: 300px;
         height: 300px; } }
-  @media only screen and (max-width: 991px) and (max-width: 767px) {
-    .emblem.rotator-mounth {
-      top: 150px; } }
+    @media only screen and (max-width: 767px) {
+      .emblem.rotator-mounth {
+        top: 150px; } }
   .emblem.rotator-days {
     width: 300px;
     height: 300px;
@@ -1463,6 +1489,9 @@ button {
   text-align: center;
   overflow: hidden;
   margin-top: 50px; }
+  @media only screen and (max-width: 767px) {
+    .instruction {
+      margin-top: 0; } }
   .instruction img {
     height: 50px;
     display: block;
@@ -1789,6 +1818,8 @@ button {
       -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
       box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2); }
+    .update-form .form-item-submit input[type=submit].has-error {
+      background: red; }
 
 .toggle-vegan h6 {
   text-align: center;
@@ -2149,22 +2180,36 @@ button {
   @media only screen and (max-width: 767px) {
     .data-style {
       margin-top: 30px; } }
-  .data-style .inputs-boxes label {
+  .data-style button {
     height: 107px;
     font-size: 18px;
     width: 100%;
     padding: 40px 20px;
-    text-align: center; }
+    text-align: center;
+    background: transparent;
+    border: 1px solid;
+    font-weight: 300; }
   .data-style img {
     position: absolute;
     top: 40px;
     width: 30px;
+    left: 50px;
     pointer-events: none; }
+    @media only screen and (max-width: 767px) {
+      .data-style img {
+        left: 25px;
+        top: 45px;
+        width: 20px; } }
   .data-style .data-pick {
     height: 107px;
     border: 0;
     text-align: center;
-    font-size: 24px; }
+    font-size: 24px;
+    width: 100%;
+    border: 1px solid #000;
+    color: #17ac10; }
+    .data-style .data-pick:focus {
+      border: 1px solid #17ac10; }
 
 #send_form {
   transition: all .5s ease-in-out; }
